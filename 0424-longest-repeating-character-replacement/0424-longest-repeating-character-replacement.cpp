@@ -1,24 +1,23 @@
 class Solution {
 public:
     int characterReplacement(string s, int k) {
-        int start = 0;
-        int maxLen = 0;
-        int maxRepeat = 0;
-        unordered_map<char, int> map; // key should be char, not int
+        int left=0;
+        int maxele=0;
+        int maxfreq=0;
+        vector<int>count(26,0);
 
-        for (int end = 0; end < s.size(); end++) {
-            char cur = s[end];
-            map[cur]++;
-            maxRepeat = max(maxRepeat, map[cur]);
+        for(int right=0;right<s.length();right++){
+            count[s[right]-'A']++;
 
-            // If more than k chars need to be replaced
-            if ((end - start + 1) - maxRepeat > k) {
-                map[s[start]]--;
-                start++;
+            maxfreq=max(maxfreq,count[s[right]-'A']);
+
+            int windowsize=right-left+1;
+            if(windowsize-maxfreq>k){
+                count[s[left]-'A']--;
+                left++;
             }
-
-            maxLen = max(maxLen, end - start + 1);
+            maxele=max(maxele,right-left+1);
         }
-        return maxLen;
+        return maxele;
     }
 };
