@@ -1,25 +1,30 @@
 class Solution {
 public:
     int countCompleteSubarrays(vector<int>& nums) {
+        unordered_set<int> dis(nums.begin(),nums.end());
+        int distinct = dis.size();
         int n = nums.size();
+        int right = 0;
+        unordered_map<int,int> map;
+        int ans = 0;
 
-        // Step 1: Find number of distinct elements in the whole array
-        unordered_set<int> unique(nums.begin(), nums.end());
-        int totalDistinct = unique.size();
-
-        int count = 0;
-
-        // Step 2: Sliding window approach to count complete subarrays
-        for (int left = 0; left < n; ++left) {
-            unordered_set<int> windowSet;
-            for (int right = left; right < n; ++right) {
-                windowSet.insert(nums[right]);
-                if (windowSet.size() == totalDistinct) {
-                    count++;
+        for(int left = 0; left<n; left++){
+            if(left>0){
+                int remove = nums[left -1];
+                map[remove]--;
+                if(map[remove]==0){
+                    map.erase(remove);
                 }
             }
+            while(right< n && map.size() < distinct){
+                int add = nums[right];
+                map[add]++;
+                right++;
+            }
+            if(map.size() ==distinct){
+                ans +=(n - right +1);
+            }
         }
-
-        return count;
+        return ans;
     }
 };
