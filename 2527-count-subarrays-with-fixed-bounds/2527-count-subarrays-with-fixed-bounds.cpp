@@ -14,9 +14,7 @@ public:
             if (nums[right] == minK) minPos = right;
             if (nums[right] == maxK) maxPos = right;
 
-            if (minPos != -1 && maxPos != -1) {
-                count += max(0, min(minPos, maxPos) - leftBound);
-            }
+            count+=  max(0, min(minPos, maxPos) - leftBound);
         }
         return count;
     }
