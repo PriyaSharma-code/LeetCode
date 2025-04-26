@@ -93,6 +93,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0141-linked-list-cycle](https://github.com/PriyaSharma-code/LeetCode/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/PriyaSharma-code/LeetCode/tree/master/0142-linked-list-cycle-ii) |
 | [0202-happy-number](https://github.com/PriyaSharma-code/LeetCode/tree/master/0202-happy-number) |
+| [0234-palindrome-linked-list](https://github.com/PriyaSharma-code/LeetCode/tree/master/0234-palindrome-linked-list) |
 | [1019-squares-of-a-sorted-array](https://github.com/PriyaSharma-code/LeetCode/tree/master/1019-squares-of-a-sorted-array) |
 ## Sorting
 |  |
@@ -112,4 +113,13 @@ A collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0141-linked-list-cycle](https://github.com/PriyaSharma-code/LeetCode/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/PriyaSharma-code/LeetCode/tree/master/0142-linked-list-cycle-ii) |
+| [0234-palindrome-linked-list](https://github.com/PriyaSharma-code/LeetCode/tree/master/0234-palindrome-linked-list) |
+## Stack
+|  |
+| ------- |
+| [0234-palindrome-linked-list](https://github.com/PriyaSharma-code/LeetCode/tree/master/0234-palindrome-linked-list) |
+## Recursion
+|  |
+| ------- |
+| [0234-palindrome-linked-list](https://github.com/PriyaSharma-code/LeetCode/tree/master/0234-palindrome-linked-list) |
 <!---LeetCode Topics End-->
