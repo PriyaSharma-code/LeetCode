@@ -10,10 +10,11 @@ public:
         if (root == nullptr) return;
         path.push_back(root->val);
         targetSum -= root->val;
-        if (root->left == nullptr && root->right == nullptr) { // Is leaf node
-            if (targetSum == 0) // Found valid path
+        if (root->left == nullptr && root->right == nullptr && targetSum == 0) { // Is leaf node
+         // Found valid path
                 ans.push_back(path);
-        } else {
+        }
+        else {
             dfs(root->left, targetSum, path);
             dfs(root->right, targetSum, path);
         }
