@@ -1,17 +1,11 @@
 class Solution {
 public:
     int countSubarrays(vector<int>& nums) {
-        if(nums.size()<2){
-            return 0;
+        int res = 0;
+        for (int i = 0; i < nums.size() - 2; i++) {
+            if ((nums[i] + nums[i + 2]) * 2 == nums[i + 1])
+                res++;
         }
-        int left = 0;
-        int count=0;
-        for(int right = 2;right<nums.size();right++){
-                if(nums[right-1] ==  (nums[left]+nums[right])*2){
-                    count++;
-                }
-                left++;
-        }
-        return count;
+        return res;
     }
 };
