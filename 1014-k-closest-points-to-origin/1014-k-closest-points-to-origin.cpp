@@ -1,22 +1,31 @@
 class Solution {
+private:
+    struct Point {
+        int dist2 = 0;
+        int idx = -1;
+
+        bool operator<(const Point& second) const {
+            return this->dist2 < second.dist2;
+        }
+    };
+
 public:
     vector<vector<int>> kClosest(vector<vector<int>>& points, int k) {
-        vector<vector<int>> ans(k);
-        priority_queue<vector<int>> maxHeap;
-
-        for(auto &p : points){
-            int x = p[0], y = p[1];
-            maxHeap.push({x*x + y*y, x,y});
-            if(maxHeap.size()>k){
-                maxHeap.pop();
-            }
+        vector<Point> p;
+        for (int i = 0; i < points.size(); ++i) {
+            int x = points[i][0];
+            int y = points[i][1];
+            p.emplace_back(x * x + y * y, i);
         }
 
-        for(int i = 0 ; i < k; i++){
-            vector<int> top = maxHeap.top();
-            maxHeap.pop();
-            ans[i] = {top[1],top[2]};
+        nth_element(begin(p), begin(p) + (k - 1), end(p));
+
+        vector<std::vector<int>> result;
+        for (int i = 0; i < k; ++i) {
+            int idx = p[i].idx;
+            result.push_back(move(points[idx]));
         }
-        return ans;
+
+        return result;
     }
 };
