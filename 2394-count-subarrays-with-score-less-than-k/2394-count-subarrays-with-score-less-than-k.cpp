@@ -7,8 +7,7 @@ public:
         for (int right = 0; right< n; right++) {
             total += nums[right];
             while (left <= right && total * (right - left + 1) >= k) {
-                total -= nums[left];
-                left++;
+                total -= nums[left++];
             }
             res += right - left + 1;
         }
