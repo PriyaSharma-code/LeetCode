@@ -1,46 +1,43 @@
-class State {
-public:
-    int x;
-    int y;
-    int dis;
-    State(int x, int y, int dis) : x(x), y(y), dis(dis) {}
-};
-
 class Solution {
 public:
+    bool isValid(const int row, const int col, const std::vector<std::vector<int>>& grid)
+    {
+        return row >= 0 && row < grid.size() && col >= 0 && col < grid[row].size();
+    }
+
     int minTimeToReach(vector<vector<int>>& moveTime) {
-        int inf = 0x3f3f3f3f;
-        int n = moveTime.size(), m = moveTime[0].size();
-        vector<vector<int>> d(n, vector<int>(m, inf));
-        vector<vector<int>> v(n, vector<int>(m, 0));
+        
+        std::priority_queue<std::vector<int>, std::vector<std::vector<int>>, std::greater<>> weightToRowToColPQ;
 
-        int dirs[4][2] = {{1, 0}, {-1, 0}, {0, 1}, {0, -1}};
-        d[0][0] = 0;
+        weightToRowToColPQ.push({0, 0, 0});
 
-        auto cmp = [](const State& a, const State& b) { return a.dis > b.dis; };
+        std::vector<std::vector<int>> minTimeToReach(moveTime.size(), std::vector<int>(moveTime.front().size(), INT_MAX));
 
-        priority_queue<State, vector<State>, decltype(cmp)> q(cmp);
-        q.push(State(0, 0, 0));
+        const std::array<int, 5> transformations = {0, 1, 0, -1, 0};
 
-        while (!q.empty()) {
-            State s = q.top();
-            q.pop();
-            if (v[s.x][s.y]) continue;
-            v[s.x][s.y] = 1;
+        while(weightToRowToColPQ.empty() == false)
+        {
+            int weight = weightToRowToColPQ.top()[0];
+            int row = weightToRowToColPQ.top()[1];
+            int col = weightToRowToColPQ.top()[2];
+            weightToRowToColPQ.pop();
 
-            for (int i = 0; i < 4; i++) {
-                int nx = s.x + dirs[i][0];
-                int ny = s.y + dirs[i][1];
-                if (nx < 0 || nx >= n || ny < 0 || ny >= m) continue;
+            for(int i = 1; i < transformations.size(); i++)
+            {
+                int xformRow = transformations[i] + row;
+                int xformCol = transformations[i - 1] + col;
+                
+                if(isValid(xformRow, xformCol, moveTime) == false) continue;
 
-                int dist = max(d[s.x][s.y], moveTime[nx][ny]) + 1;
-                if (d[nx][ny] > dist) {
-                    d[nx][ny] = dist;
-                    q.push(State(nx, ny, dist));
+                int newWeight = std::max(moveTime[xformRow][xformCol], weight) + 1;
+                if(newWeight < minTimeToReach[xformRow][xformCol])
+                {
+                    minTimeToReach[xformRow][xformCol] = newWeight;
+                    weightToRowToColPQ.emplace(std::vector<int>{newWeight, xformRow, xformCol});
                 }
             }
         }
 
-        return d[n - 1][m - 1];
+        return minTimeToReach.back().back();
     }
 };
