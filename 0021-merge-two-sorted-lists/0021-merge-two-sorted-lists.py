@@ -3,20 +3,37 @@
 #     def __init__(self, val=0, next=None):
 #         self.val = val
 #         self.next = next
-
 class Solution:
-    def mergeTwoLists(self, list1: ListNode, list2: ListNode) -> ListNode:
-        dummy = node = ListNode()
-
-        while list1 and list2:
-            if list1.val < list2.val:
-                node.next = list1
-                list1 = list1.next
+    def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
+        # check whether list is None
+        if not list1:
+            return list2
+        if not list2:
+            return list1
+        
+        # now list1 and list2 are not None
+        p1, p2 = list1, list2
+        dummy_node = ListNode('dummy')
+        p = dummy_node
+        while p1 and p2:
+            if p1.val < p2.val:
+                p.next = p1
+                p1 = p1.next
             else:
-                node.next = list2
-                list2 = list2.next
-            node = node.next
+                p.next = p2
+                p2 = p2.next
+            p = p.next
+        
+        if p1:
+            p.next = p1
+        
+        if p2:
+            p.next = p2
 
-        node.next = list1 or list2
+        
+        return dummy_node.next
+            
 
-        return dummy.next
+
+            
+        
