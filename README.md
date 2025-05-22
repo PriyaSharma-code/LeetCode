@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1036-rotting-oranges](https://github.com/PriyaSharma-code/LeetCode/tree/master/1036-rotting-oranges) |
 | [1046-max-consecutive-ones-iii](https://github.com/PriyaSharma-code/LeetCode/tree/master/1046-max-consecutive-ones-iii) |
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/PriyaSharma-code/LeetCode/tree/master/1049-minimum-domino-rotations-for-equal-row) |
+| [1127-last-stone-weight](https://github.com/PriyaSharma-code/LeetCode/tree/master/1127-last-stone-weight) |
 | [1293-three-consecutive-odds](https://github.com/PriyaSharma-code/LeetCode/tree/master/1293-three-consecutive-odds) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/PriyaSharma-code/LeetCode/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/PriyaSharma-code/LeetCode/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
@@ -212,6 +213,7 @@ A collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/PriyaSharma-code/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
 | [1014-k-closest-points-to-origin](https://github.com/PriyaSharma-code/LeetCode/tree/master/1014-k-closest-points-to-origin) |
+| [1127-last-stone-weight](https://github.com/PriyaSharma-code/LeetCode/tree/master/1127-last-stone-weight) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/PriyaSharma-code/LeetCode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 ## Quickselect
 |  |
