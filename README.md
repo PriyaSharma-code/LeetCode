@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0026-remove-duplicates-from-sorted-array](https://github.com/PriyaSharma-code/LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0056-merge-intervals](https://github.com/PriyaSharma-code/LeetCode/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/PriyaSharma-code/LeetCode/tree/master/0057-insert-interval) |
+| [0074-search-a-2d-matrix](https://github.com/PriyaSharma-code/LeetCode/tree/master/0074-search-a-2d-matrix) |
 | [0215-kth-largest-element-in-an-array](https://github.com/PriyaSharma-code/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0518-coin-change-ii](https://github.com/PriyaSharma-code/LeetCode/tree/master/0518-coin-change-ii) |
 | [0940-fruit-into-baskets](https://github.com/PriyaSharma-code/LeetCode/tree/master/0940-fruit-into-baskets) |
@@ -80,6 +81,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Binary Search
 |  |
 | ------- |
+| [0074-search-a-2d-matrix](https://github.com/PriyaSharma-code/LeetCode/tree/master/0074-search-a-2d-matrix) |
 | [1046-max-consecutive-ones-iii](https://github.com/PriyaSharma-code/LeetCode/tree/master/1046-max-consecutive-ones-iii) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/PriyaSharma-code/LeetCode/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2280-count-good-triplets-in-an-array](https://github.com/PriyaSharma-code/LeetCode/tree/master/2280-count-good-triplets-in-an-array) |
@@ -238,6 +240,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Matrix
 |  |
 | ------- |
+| [0074-search-a-2d-matrix](https://github.com/PriyaSharma-code/LeetCode/tree/master/0074-search-a-2d-matrix) |
 | [1036-rotting-oranges](https://github.com/PriyaSharma-code/LeetCode/tree/master/1036-rotting-oranges) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/PriyaSharma-code/LeetCode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 ## Shortest Path
