@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0057-insert-interval](https://github.com/PriyaSharma-code/LeetCode/tree/master/0057-insert-interval) |
 | [0074-search-a-2d-matrix](https://github.com/PriyaSharma-code/LeetCode/tree/master/0074-search-a-2d-matrix) |
 | [0215-kth-largest-element-in-an-array](https://github.com/PriyaSharma-code/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
+| [0322-coin-change](https://github.com/PriyaSharma-code/LeetCode/tree/master/0322-coin-change) |
 | [0518-coin-change-ii](https://github.com/PriyaSharma-code/LeetCode/tree/master/0518-coin-change-ii) |
 | [0940-fruit-into-baskets](https://github.com/PriyaSharma-code/LeetCode/tree/master/0940-fruit-into-baskets) |
 | [1014-k-closest-points-to-origin](https://github.com/PriyaSharma-code/LeetCode/tree/master/1014-k-closest-points-to-origin) |
@@ -199,6 +200,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0107-binary-tree-level-order-traversal-ii](https://github.com/PriyaSharma-code/LeetCode/tree/master/0107-binary-tree-level-order-traversal-ii) |
 | [0111-minimum-depth-of-binary-tree](https://github.com/PriyaSharma-code/LeetCode/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0199-binary-tree-right-side-view](https://github.com/PriyaSharma-code/LeetCode/tree/master/0199-binary-tree-right-side-view) |
+| [0322-coin-change](https://github.com/PriyaSharma-code/LeetCode/tree/master/0322-coin-change) |
 | [1036-rotting-oranges](https://github.com/PriyaSharma-code/LeetCode/tree/master/1036-rotting-oranges) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/PriyaSharma-code/LeetCode/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 ## Binary Tree
@@ -256,6 +258,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Dynamic Programming
 |  |
 | ------- |
+| [0322-coin-change](https://github.com/PriyaSharma-code/LeetCode/tree/master/0322-coin-change) |
 | [0518-coin-change-ii](https://github.com/PriyaSharma-code/LeetCode/tree/master/0518-coin-change-ii) |
 | [0868-push-dominoes](https://github.com/PriyaSharma-code/LeetCode/tree/master/0868-push-dominoes) |
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/PriyaSharma-code/LeetCode/tree/master/1986-largest-color-value-in-a-directed-graph) |
