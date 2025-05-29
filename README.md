@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0056-merge-intervals](https://github.com/PriyaSharma-code/LeetCode/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/PriyaSharma-code/LeetCode/tree/master/0057-insert-interval) |
 | [0074-search-a-2d-matrix](https://github.com/PriyaSharma-code/LeetCode/tree/master/0074-search-a-2d-matrix) |
+| [0198-house-robber](https://github.com/PriyaSharma-code/LeetCode/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/PriyaSharma-code/LeetCode/tree/master/0200-number-of-islands) |
 | [0215-kth-largest-element-in-an-array](https://github.com/PriyaSharma-code/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0322-coin-change](https://github.com/PriyaSharma-code/LeetCode/tree/master/0322-coin-change) |
@@ -268,6 +269,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Dynamic Programming
 |  |
 | ------- |
+| [0198-house-robber](https://github.com/PriyaSharma-code/LeetCode/tree/master/0198-house-robber) |
 | [0322-coin-change](https://github.com/PriyaSharma-code/LeetCode/tree/master/0322-coin-change) |
 | [0518-coin-change-ii](https://github.com/PriyaSharma-code/LeetCode/tree/master/0518-coin-change-ii) |
 | [0868-push-dominoes](https://github.com/PriyaSharma-code/LeetCode/tree/master/0868-push-dominoes) |
