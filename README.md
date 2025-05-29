@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0215-kth-largest-element-in-an-array](https://github.com/PriyaSharma-code/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0322-coin-change](https://github.com/PriyaSharma-code/LeetCode/tree/master/0322-coin-change) |
 | [0518-coin-change-ii](https://github.com/PriyaSharma-code/LeetCode/tree/master/0518-coin-change-ii) |
+| [0695-max-area-of-island](https://github.com/PriyaSharma-code/LeetCode/tree/master/0695-max-area-of-island) |
 | [0940-fruit-into-baskets](https://github.com/PriyaSharma-code/LeetCode/tree/master/0940-fruit-into-baskets) |
 | [1014-k-closest-points-to-origin](https://github.com/PriyaSharma-code/LeetCode/tree/master/1014-k-closest-points-to-origin) |
 | [1019-squares-of-a-sorted-array](https://github.com/PriyaSharma-code/LeetCode/tree/master/1019-squares-of-a-sorted-array) |
@@ -203,6 +204,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0199-binary-tree-right-side-view](https://github.com/PriyaSharma-code/LeetCode/tree/master/0199-binary-tree-right-side-view) |
 | [0200-number-of-islands](https://github.com/PriyaSharma-code/LeetCode/tree/master/0200-number-of-islands) |
 | [0322-coin-change](https://github.com/PriyaSharma-code/LeetCode/tree/master/0322-coin-change) |
+| [0695-max-area-of-island](https://github.com/PriyaSharma-code/LeetCode/tree/master/0695-max-area-of-island) |
 | [1036-rotting-oranges](https://github.com/PriyaSharma-code/LeetCode/tree/master/1036-rotting-oranges) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/PriyaSharma-code/LeetCode/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 ## Binary Tree
@@ -229,6 +231,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0199-binary-tree-right-side-view](https://github.com/PriyaSharma-code/LeetCode/tree/master/0199-binary-tree-right-side-view) |
 | [0200-number-of-islands](https://github.com/PriyaSharma-code/LeetCode/tree/master/0200-number-of-islands) |
 | [0437-path-sum-iii](https://github.com/PriyaSharma-code/LeetCode/tree/master/0437-path-sum-iii) |
+| [0695-max-area-of-island](https://github.com/PriyaSharma-code/LeetCode/tree/master/0695-max-area-of-island) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/PriyaSharma-code/LeetCode/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 ## Backtracking
 |  |
@@ -276,6 +279,7 @@ A collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0074-search-a-2d-matrix](https://github.com/PriyaSharma-code/LeetCode/tree/master/0074-search-a-2d-matrix) |
 | [0200-number-of-islands](https://github.com/PriyaSharma-code/LeetCode/tree/master/0200-number-of-islands) |
+| [0695-max-area-of-island](https://github.com/PriyaSharma-code/LeetCode/tree/master/0695-max-area-of-island) |
 | [1036-rotting-oranges](https://github.com/PriyaSharma-code/LeetCode/tree/master/1036-rotting-oranges) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/PriyaSharma-code/LeetCode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 ## Shortest Path
@@ -306,4 +310,5 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/PriyaSharma-code/LeetCode/tree/master/0200-number-of-islands) |
+| [0695-max-area-of-island](https://github.com/PriyaSharma-code/LeetCode/tree/master/0695-max-area-of-island) |
 <!---LeetCode Topics End-->
