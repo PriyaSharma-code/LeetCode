@@ -35,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2527-count-subarrays-with-fixed-bounds](https://github.com/PriyaSharma-code/LeetCode/tree/master/2527-count-subarrays-with-fixed-bounds) |
 | [2856-count-complete-subarrays-in-an-array](https://github.com/PriyaSharma-code/LeetCode/tree/master/2856-count-complete-subarrays-in-an-array) |
 | [2915-count-of-interesting-subarrays](https://github.com/PriyaSharma-code/LeetCode/tree/master/2915-count-of-interesting-subarrays) |
+| [3490-find-the-maximum-length-of-valid-subsequence-i](https://github.com/PriyaSharma-code/LeetCode/tree/master/3490-find-the-maximum-length-of-valid-subsequence-i) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/PriyaSharma-code/LeetCode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3685-count-subarrays-of-length-three-with-a-condition](https://github.com/PriyaSharma-code/LeetCode/tree/master/3685-count-subarrays-of-length-three-with-a-condition) |
 ## Hash Table
@@ -282,6 +283,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0868-push-dominoes](https://github.com/PriyaSharma-code/LeetCode/tree/master/0868-push-dominoes) |
 | [1250-longest-common-subsequence](https://github.com/PriyaSharma-code/LeetCode/tree/master/1250-longest-common-subsequence) |
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/PriyaSharma-code/LeetCode/tree/master/1986-largest-color-value-in-a-directed-graph) |
+| [3490-find-the-maximum-length-of-valid-subsequence-i](https://github.com/PriyaSharma-code/LeetCode/tree/master/3490-find-the-maximum-length-of-valid-subsequence-i) |
 | [3637-count-number-of-balanced-permutations](https://github.com/PriyaSharma-code/LeetCode/tree/master/3637-count-number-of-balanced-permutations) |
 ## Graph
 |  |
