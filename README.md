@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/PriyaSharma-code/LeetCode/tree/master/1049-minimum-domino-rotations-for-equal-row) |
 | [1127-last-stone-weight](https://github.com/PriyaSharma-code/LeetCode/tree/master/1127-last-stone-weight) |
 | [1293-three-consecutive-odds](https://github.com/PriyaSharma-code/LeetCode/tree/master/1293-three-consecutive-odds) |
+| [1350-remove-sub-folders-from-the-filesystem](https://github.com/PriyaSharma-code/LeetCode/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/PriyaSharma-code/LeetCode/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/PriyaSharma-code/LeetCode/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2280-count-good-triplets-in-an-array](https://github.com/PriyaSharma-code/LeetCode/tree/master/2280-count-good-triplets-in-an-array) |
@@ -69,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0424-longest-repeating-character-replacement](https://github.com/PriyaSharma-code/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
 | [0868-push-dominoes](https://github.com/PriyaSharma-code/LeetCode/tree/master/0868-push-dominoes) |
 | [1250-longest-common-subsequence](https://github.com/PriyaSharma-code/LeetCode/tree/master/1250-longest-common-subsequence) |
+| [1350-remove-sub-folders-from-the-filesystem](https://github.com/PriyaSharma-code/LeetCode/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [3637-count-number-of-balanced-permutations](https://github.com/PriyaSharma-code/LeetCode/tree/master/3637-count-number-of-balanced-permutations) |
 | [3813-smallest-palindromic-rearrangement-ii](https://github.com/PriyaSharma-code/LeetCode/tree/master/3813-smallest-palindromic-rearrangement-ii) |
 | [3871-minimum-deletions-for-at-most-k-distinct-characters](https://github.com/PriyaSharma-code/LeetCode/tree/master/3871-minimum-deletions-for-at-most-k-distinct-characters) |
@@ -242,6 +244,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0437-path-sum-iii](https://github.com/PriyaSharma-code/LeetCode/tree/master/0437-path-sum-iii) |
 | [0695-max-area-of-island](https://github.com/PriyaSharma-code/LeetCode/tree/master/0695-max-area-of-island) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/PriyaSharma-code/LeetCode/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
+| [1350-remove-sub-folders-from-the-filesystem](https://github.com/PriyaSharma-code/LeetCode/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 ## Backtracking
 |  |
 | ------- |
@@ -327,4 +330,8 @@ A collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0200-number-of-islands](https://github.com/PriyaSharma-code/LeetCode/tree/master/0200-number-of-islands) |
 | [0695-max-area-of-island](https://github.com/PriyaSharma-code/LeetCode/tree/master/0695-max-area-of-island) |
+## Trie
+|  |
+| ------- |
+| [1350-remove-sub-folders-from-the-filesystem](https://github.com/PriyaSharma-code/LeetCode/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 <!---LeetCode Topics End-->
