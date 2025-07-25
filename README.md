@@ -41,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [3491-find-the-maximum-length-of-valid-subsequence-ii](https://github.com/PriyaSharma-code/LeetCode/tree/master/3491-find-the-maximum-length-of-valid-subsequence-ii) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/PriyaSharma-code/LeetCode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3685-count-subarrays-of-length-three-with-a-condition](https://github.com/PriyaSharma-code/LeetCode/tree/master/3685-count-subarrays-of-length-three-with-a-condition) |
+| [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/PriyaSharma-code/LeetCode/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 ## Hash Table
 |  |
 | ------- |
@@ -55,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/PriyaSharma-code/LeetCode/tree/master/1986-largest-color-value-in-a-directed-graph) |
 | [2856-count-complete-subarrays-in-an-array](https://github.com/PriyaSharma-code/LeetCode/tree/master/2856-count-complete-subarrays-in-an-array) |
 | [2915-count-of-interesting-subarrays](https://github.com/PriyaSharma-code/LeetCode/tree/master/2915-count-of-interesting-subarrays) |
+| [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/PriyaSharma-code/LeetCode/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 | [3813-smallest-palindromic-rearrangement-ii](https://github.com/PriyaSharma-code/LeetCode/tree/master/3813-smallest-palindromic-rearrangement-ii) |
 | [3871-minimum-deletions-for-at-most-k-distinct-characters](https://github.com/PriyaSharma-code/LeetCode/tree/master/3871-minimum-deletions-for-at-most-k-distinct-characters) |
 ## Sliding Window
@@ -282,6 +284,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/PriyaSharma-code/LeetCode/tree/master/1049-minimum-domino-rotations-for-equal-row) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/PriyaSharma-code/LeetCode/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/PriyaSharma-code/LeetCode/tree/master/2497-maximum-matching-of-players-with-trainers) |
+| [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/PriyaSharma-code/LeetCode/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 | [3871-minimum-deletions-for-at-most-k-distinct-characters](https://github.com/PriyaSharma-code/LeetCode/tree/master/3871-minimum-deletions-for-at-most-k-distinct-characters) |
 ## Dynamic Programming
 |  |
