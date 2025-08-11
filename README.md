@@ -52,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0142-linked-list-cycle-ii](https://github.com/PriyaSharma-code/LeetCode/tree/master/0142-linked-list-cycle-ii) |
 | [0202-happy-number](https://github.com/PriyaSharma-code/LeetCode/tree/master/0202-happy-number) |
 | [0424-longest-repeating-character-replacement](https://github.com/PriyaSharma-code/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
+| [0900-reordered-power-of-2](https://github.com/PriyaSharma-code/LeetCode/tree/master/0900-reordered-power-of-2) |
 | [0940-fruit-into-baskets](https://github.com/PriyaSharma-code/LeetCode/tree/master/0940-fruit-into-baskets) |
 | [1813-maximum-erasure-value](https://github.com/PriyaSharma-code/LeetCode/tree/master/1813-maximum-erasure-value) |
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/PriyaSharma-code/LeetCode/tree/master/1986-largest-color-value-in-a-directed-graph) |
@@ -90,6 +91,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0002-add-two-numbers](https://github.com/PriyaSharma-code/LeetCode/tree/master/0002-add-two-numbers) |
 | [0202-happy-number](https://github.com/PriyaSharma-code/LeetCode/tree/master/0202-happy-number) |
 | [0231-power-of-two](https://github.com/PriyaSharma-code/LeetCode/tree/master/0231-power-of-two) |
+| [0900-reordered-power-of-2](https://github.com/PriyaSharma-code/LeetCode/tree/master/0900-reordered-power-of-2) |
 | [1014-k-closest-points-to-origin](https://github.com/PriyaSharma-code/LeetCode/tree/master/1014-k-closest-points-to-origin) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/PriyaSharma-code/LeetCode/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [3172-divisible-and-non-divisible-sums-difference](https://github.com/PriyaSharma-code/LeetCode/tree/master/3172-divisible-and-non-divisible-sums-difference) |
@@ -103,6 +105,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Counting
 |  |
 | ------- |
+| [0900-reordered-power-of-2](https://github.com/PriyaSharma-code/LeetCode/tree/master/0900-reordered-power-of-2) |
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/PriyaSharma-code/LeetCode/tree/master/1986-largest-color-value-in-a-directed-graph) |
 | [3813-smallest-palindromic-rearrangement-ii](https://github.com/PriyaSharma-code/LeetCode/tree/master/3813-smallest-palindromic-rearrangement-ii) |
 | [3871-minimum-deletions-for-at-most-k-distinct-characters](https://github.com/PriyaSharma-code/LeetCode/tree/master/3871-minimum-deletions-for-at-most-k-distinct-characters) |
@@ -161,6 +164,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0015-3sum](https://github.com/PriyaSharma-code/LeetCode/tree/master/0015-3sum) |
 | [0056-merge-intervals](https://github.com/PriyaSharma-code/LeetCode/tree/master/0056-merge-intervals) |
 | [0215-kth-largest-element-in-an-array](https://github.com/PriyaSharma-code/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
+| [0900-reordered-power-of-2](https://github.com/PriyaSharma-code/LeetCode/tree/master/0900-reordered-power-of-2) |
 | [1014-k-closest-points-to-origin](https://github.com/PriyaSharma-code/LeetCode/tree/master/1014-k-closest-points-to-origin) |
 | [1019-squares-of-a-sorted-array](https://github.com/PriyaSharma-code/LeetCode/tree/master/1019-squares-of-a-sorted-array) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/PriyaSharma-code/LeetCode/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
@@ -358,4 +362,8 @@ A collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0231-power-of-two](https://github.com/PriyaSharma-code/LeetCode/tree/master/0231-power-of-two) |
 | [0934-bitwise-ors-of-subarrays](https://github.com/PriyaSharma-code/LeetCode/tree/master/0934-bitwise-ors-of-subarrays) |
+## Enumeration
+|  |
+| ------- |
+| [0900-reordered-power-of-2](https://github.com/PriyaSharma-code/LeetCode/tree/master/0900-reordered-power-of-2) |
 <!---LeetCode Topics End-->
