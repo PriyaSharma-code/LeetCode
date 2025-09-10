@@ -1,33 +1,33 @@
 class Solution {
 public:
-    int minimumTeachings(int n, vector<vector<int>>& languages, vector<vector<int>>& friendships) {
-        unordered_set<int> cncon;
-        for(auto f: friendships){
-            unordered_map<int,int> mp;
-            bool conm = false;
-            for(int lan : languages[f[0]-1]){
-                mp[lan] = 1;
-            }
-            for(int lan : languages[f[1] -1]){
-                if(mp[lan]){
-                    conm = true;
-                    break;
-                }
-            }
-            if(!conm){
-                cncon.insert(f[0] -1);
-                cncon.insert(f[1] -1);
-            }
+    static int minimumTeachings(int n, vector<vector<int>>& languages, vector<vector<int>>& friendships) {
+        int m=languages.size(); // number of people
 
+        //known languages for each person
+        vector<bitset<501>> know(m);
+        for (int i=0; i<m; i++) 
+            for (int l : languages[i]) know[i][l]=1;
+        
+        // people need be taught
+        bitset<501> need=0;
+        for (auto& f : friendships) {
+            int a=f[0]-1, b=f[1]-1;
+            if ((know[a] & know[b]).any()) continue; // can talk
+            need[a]=need[b]=1;
         }
-        int max_cnt = 0;
-        vector<int> cnt(n+1,0);
-        for(auto friendships:cncon){
-            for(int lan: languages[friendships]){
-                cnt[lan]++;
-                max_cnt = max(max_cnt,cnt[lan]);
+
+        // if no need
+        if (need.count()==0) return 0;
+
+        int ans=INT_MAX;
+        for (int lang=1; lang<=n; lang++) { // languages for 1..n
+            int cnt=0;
+            for (int i=0; i<m; i++) {
+                if (need[i] & !know[i][lang]) cnt++;
             }
+            ans=min(ans, cnt);
         }
-        return cncon.size() - max_cnt;
+
+        return ans;
     }
 };
