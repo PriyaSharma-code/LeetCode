@@ -1,17 +1,8 @@
 class Solution {
 public:
     bool doesAliceWin(string s) {
-        int vow=0;
-        int len=s.length();
-        for( char a:s){
-                if(a=='a'||a=='e'||a=='i'||a=='o'||a=='u'){
-                    vow++;
-                }
-        }
-        if(vow==0){
-            return false;
-        }
-
-        return true;
+        return ranges::any_of(s, [](char c) {
+            return c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u';
+        });
     }
 };
