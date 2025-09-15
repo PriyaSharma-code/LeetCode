@@ -85,6 +85,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1250-longest-common-subsequence](https://github.com/PriyaSharma-code/LeetCode/tree/master/1250-longest-common-subsequence) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/PriyaSharma-code/LeetCode/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [3396-valid-word](https://github.com/PriyaSharma-code/LeetCode/tree/master/3396-valid-word) |
+| [3462-vowels-game-in-a-string](https://github.com/PriyaSharma-code/LeetCode/tree/master/3462-vowels-game-in-a-string) |
 | [3637-count-number-of-balanced-permutations](https://github.com/PriyaSharma-code/LeetCode/tree/master/3637-count-number-of-balanced-permutations) |
 | [3813-smallest-palindromic-rearrangement-ii](https://github.com/PriyaSharma-code/LeetCode/tree/master/3813-smallest-palindromic-rearrangement-ii) |
 | [3871-minimum-deletions-for-at-most-k-distinct-characters](https://github.com/PriyaSharma-code/LeetCode/tree/master/3871-minimum-deletions-for-at-most-k-distinct-characters) |
@@ -98,6 +99,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1014-k-closest-points-to-origin](https://github.com/PriyaSharma-code/LeetCode/tree/master/1014-k-closest-points-to-origin) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/PriyaSharma-code/LeetCode/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [3172-divisible-and-non-divisible-sums-difference](https://github.com/PriyaSharma-code/LeetCode/tree/master/3172-divisible-and-non-divisible-sums-difference) |
+| [3462-vowels-game-in-a-string](https://github.com/PriyaSharma-code/LeetCode/tree/master/3462-vowels-game-in-a-string) |
 | [3637-count-number-of-balanced-permutations](https://github.com/PriyaSharma-code/LeetCode/tree/master/3637-count-number-of-balanced-permutations) |
 | [3813-smallest-palindromic-rearrangement-ii](https://github.com/PriyaSharma-code/LeetCode/tree/master/3813-smallest-palindromic-rearrangement-ii) |
 ## Combinatorics
@@ -372,4 +374,12 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0900-reordered-power-of-2](https://github.com/PriyaSharma-code/LeetCode/tree/master/0900-reordered-power-of-2) |
+## Brainteaser
+|  |
+| ------- |
+| [3462-vowels-game-in-a-string](https://github.com/PriyaSharma-code/LeetCode/tree/master/3462-vowels-game-in-a-string) |
+## Game Theory
+|  |
+| ------- |
+| [3462-vowels-game-in-a-string](https://github.com/PriyaSharma-code/LeetCode/tree/master/3462-vowels-game-in-a-string) |
 <!---LeetCode Topics End-->
