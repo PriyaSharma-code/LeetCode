@@ -34,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1834-minimum-number-of-people-to-teach](https://github.com/PriyaSharma-code/LeetCode/tree/master/1834-minimum-number-of-people-to-teach) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/PriyaSharma-code/LeetCode/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2280-count-good-triplets-in-an-array](https://github.com/PriyaSharma-code/LeetCode/tree/master/2280-count-good-triplets-in-an-array) |
+| [2307-replace-non-coprime-numbers-in-array](https://github.com/PriyaSharma-code/LeetCode/tree/master/2307-replace-non-coprime-numbers-in-array) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/PriyaSharma-code/LeetCode/tree/master/2394-count-subarrays-with-score-less-than-k) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/PriyaSharma-code/LeetCode/tree/master/2497-maximum-matching-of-players-with-trainers) |
 | [2527-count-subarrays-with-fixed-bounds](https://github.com/PriyaSharma-code/LeetCode/tree/master/2527-count-subarrays-with-fixed-bounds) |
@@ -100,6 +101,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0900-reordered-power-of-2](https://github.com/PriyaSharma-code/LeetCode/tree/master/0900-reordered-power-of-2) |
 | [1014-k-closest-points-to-origin](https://github.com/PriyaSharma-code/LeetCode/tree/master/1014-k-closest-points-to-origin) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/PriyaSharma-code/LeetCode/tree/master/1421-find-numbers-with-even-number-of-digits) |
+| [2307-replace-non-coprime-numbers-in-array](https://github.com/PriyaSharma-code/LeetCode/tree/master/2307-replace-non-coprime-numbers-in-array) |
 | [3172-divisible-and-non-divisible-sums-difference](https://github.com/PriyaSharma-code/LeetCode/tree/master/3172-divisible-and-non-divisible-sums-difference) |
 | [3462-vowels-game-in-a-string](https://github.com/PriyaSharma-code/LeetCode/tree/master/3462-vowels-game-in-a-string) |
 | [3637-count-number-of-balanced-permutations](https://github.com/PriyaSharma-code/LeetCode/tree/master/3637-count-number-of-balanced-permutations) |
@@ -201,6 +203,7 @@ A collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0020-valid-parentheses](https://github.com/PriyaSharma-code/LeetCode/tree/master/0020-valid-parentheses) |
 | [0234-palindrome-linked-list](https://github.com/PriyaSharma-code/LeetCode/tree/master/0234-palindrome-linked-list) |
+| [2307-replace-non-coprime-numbers-in-array](https://github.com/PriyaSharma-code/LeetCode/tree/master/2307-replace-non-coprime-numbers-in-array) |
 ## Recursion
 |  |
 | ------- |
@@ -384,4 +387,8 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [3462-vowels-game-in-a-string](https://github.com/PriyaSharma-code/LeetCode/tree/master/3462-vowels-game-in-a-string) |
+## Number Theory
+|  |
+| ------- |
+| [2307-replace-non-coprime-numbers-in-array](https://github.com/PriyaSharma-code/LeetCode/tree/master/2307-replace-non-coprime-numbers-in-array) |
 <!---LeetCode Topics End-->
