@@ -1,29 +1,23 @@
 class Solution {
 public:
-    int canBeTypedWords(string text, string brokenLetters) {
-        unordered_set<char> broken;
-        int count=0;
-
-        for(auto &c: brokenLetters){
-            broken.insert(c);
+    int canBeTypedWords(string& text, string& brokenLetters) {
+        bitset<26> checkKey;
+        int res{};
+        for(const int& c : brokenLetters){
+            checkKey[c-97] = true;
         }
-        stringstream ss(text);
-        string word;
-        vector<string> words;
-
-        while(ss >> word){
-            words.push_back(word);
-        }
-
-        for(auto w : words){
-            for(char c: w){
-                if(broken.find(c)!=broken.end()){
-                    count++;
-                    break;
-                }
+        bool ok = true;
+        for(const int& c : text){
+            if(c == 32){
+                if(ok)
+                    ++res;
+                else
+                    ok = true;
             }
-        }
-        return words.size() - count;
 
+            if(ok && checkKey[c-97])
+                ok = false;
+        }
+        return res+ok;
     }
 };
