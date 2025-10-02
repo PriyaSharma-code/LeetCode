@@ -1,20 +1,9 @@
 class Solution {
 public:
-    int maxBottlesDrunk(int numBottles, int numExchange) {
-        int drunk = 0;
-        int empty = 0;
-        if (numBottles == 0 && numExchange == 0) {
-            return drunk;
-        }
-        drunk += numBottles;
-        empty = numBottles;
-        while (empty >= numExchange) {
-
-            empty -= numExchange;
-            numExchange++;
-            drunk += 1;
-            empty++;
-        }
-        return drunk;
+    int maxBottlesDrunk(int nB, int nE) {
+        int x=nB;
+        int y=nE;
+        int h=(((-2*y)+3+sqrt(4*y*y+8*x-12*y+1))/2);
+        return x+h;
     }
 };
