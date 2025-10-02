@@ -106,6 +106,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/PriyaSharma-code/LeetCode/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [2307-replace-non-coprime-numbers-in-array](https://github.com/PriyaSharma-code/LeetCode/tree/master/2307-replace-non-coprime-numbers-in-array) |
 | [3172-divisible-and-non-divisible-sums-difference](https://github.com/PriyaSharma-code/LeetCode/tree/master/3172-divisible-and-non-divisible-sums-difference) |
+| [3336-water-bottles-ii](https://github.com/PriyaSharma-code/LeetCode/tree/master/3336-water-bottles-ii) |
 | [3462-vowels-game-in-a-string](https://github.com/PriyaSharma-code/LeetCode/tree/master/3462-vowels-game-in-a-string) |
 | [3637-count-number-of-balanced-permutations](https://github.com/PriyaSharma-code/LeetCode/tree/master/3637-count-number-of-balanced-permutations) |
 | [3813-smallest-palindromic-rearrangement-ii](https://github.com/PriyaSharma-code/LeetCode/tree/master/3813-smallest-palindromic-rearrangement-ii) |
@@ -397,4 +398,8 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [2307-replace-non-coprime-numbers-in-array](https://github.com/PriyaSharma-code/LeetCode/tree/master/2307-replace-non-coprime-numbers-in-array) |
+## Simulation
+|  |
+| ------- |
+| [3336-water-bottles-ii](https://github.com/PriyaSharma-code/LeetCode/tree/master/3336-water-bottles-ii) |
 <!---LeetCode Topics End-->
