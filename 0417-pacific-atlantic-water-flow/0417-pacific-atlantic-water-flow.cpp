@@ -1,44 +1,57 @@
 class Solution {
 public:
-    int m, n;
-    vector<vector<int>> directions = {{1,0}, {-1,0}, {0,1}, {0,-1}};
 
-    vector<vector<int>> pacificAtlantic(vector<vector<int>>& heights) {
-        m = heights.size();
-        n = heights[0].size();
+    int r[4] = {0,1,0,-1};
+    int c[4] = {1,0,-1,0};
 
-        vector<vector<bool>> pacific(m, vector<bool>(n, false));
-        vector<vector<bool>> atlantic(m, vector<bool>(n, false));
+    void solve(vector<vector<int>>& h,int i,int j, bool atlantic, vector<vector<pair<int,int>>>& a){
+        if(atlantic && a[i][j].first==1) return;
+        if(!atlantic && a[i][j].second==1) return;
 
-        for (int j = 0; j < n; j++) dfs(0, j, heights, pacific);
-        for (int i = 0; i < m; i++) dfs(i, 0, heights, pacific);
+        if(atlantic) a[i][j].first=1;
+        else a[i][j].second=1;
 
-        for (int j = 0; j < n; j++) dfs(m-1, j, heights, atlantic);
-        for (int i = 0; i < m; i++) dfs(i, n-1, heights, atlantic);
+        for(int k=0;k<4;k++){
+            int row = i+ r[k];
+            int col = j+ c[k];
 
-        vector<vector<int>> result;
-        for (int i = 0; i < m; i++) {
-            for (int j = 0; j < n; j++) {
-                if (pacific[i][j] && atlantic[i][j]) {
-                    result.push_back({i, j});
-                }
+            if(row>=0 && col>=0 && row<h.size() && col<h[0].size() && h[i][j]<=h[row][col]){
+                
+                solve(h,row,col,atlantic,a);
             }
         }
 
-        return result;
+        
     }
 
-    void dfs(int i, int j, vector<vector<int>>& heights, vector<vector<bool>>& visited) {
-        visited[i][j] = true;
-        
-        for (auto& d : directions) {
-            int x = i + d[0], y = j + d[1];
-            
-            if (x < 0 || x >= m || y < 0 || y >= n) continue;
-            if (visited[x][y]) continue;
-            if (heights[x][y] < heights[i][j]) continue;
-            
-            dfs(x, y, heights, visited);
+    vector<vector<int>> pacificAtlantic(vector<vector<int>>& heights) {
+        int m = heights.size(), n=heights[0].size();
+
+        vector<vector<pair<int,int>>> v(m, vector<pair<int,int>>(n,{0,0}));
+        vector<vector<int>> ans;
+
+        for(int j=0;j<n;j++){
+            solve(heights,0,j,false,v);
         }
+
+        for(int i=0;i<m;i++){
+            solve(heights,i,0,false,v);
+        }
+
+        for(int j=0;j<n;j++){
+            solve(heights,m-1,j,true,v);
+        }
+
+        for(int i=0;i<m;i++){
+            solve(heights,i,n-1,true,v);
+        }
+
+        for(int i=0;i<m;i++){
+            for(int j=0;j<n;j++){
+                if(v[i][j].first==1 && v[i][j].second==1) ans.push_back({i,j});
+            }
+        }
+
+        return ans;
     }
 };
