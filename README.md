@@ -38,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1813-maximum-erasure-value](https://github.com/PriyaSharma-code/LeetCode/tree/master/1813-maximum-erasure-value) |
 | [1834-minimum-number-of-people-to-teach](https://github.com/PriyaSharma-code/LeetCode/tree/master/1834-minimum-number-of-people-to-teach) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/PriyaSharma-code/LeetCode/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
+| [2221-find-triangular-sum-of-an-array](https://github.com/PriyaSharma-code/LeetCode/tree/master/2221-find-triangular-sum-of-an-array) |
 | [2280-count-good-triplets-in-an-array](https://github.com/PriyaSharma-code/LeetCode/tree/master/2280-count-good-triplets-in-an-array) |
 | [2307-replace-non-coprime-numbers-in-array](https://github.com/PriyaSharma-code/LeetCode/tree/master/2307-replace-non-coprime-numbers-in-array) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/PriyaSharma-code/LeetCode/tree/master/2394-count-subarrays-with-score-less-than-k) |
@@ -112,6 +113,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0900-reordered-power-of-2](https://github.com/PriyaSharma-code/LeetCode/tree/master/0900-reordered-power-of-2) |
 | [1014-k-closest-points-to-origin](https://github.com/PriyaSharma-code/LeetCode/tree/master/1014-k-closest-points-to-origin) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/PriyaSharma-code/LeetCode/tree/master/1421-find-numbers-with-even-number-of-digits) |
+| [2221-find-triangular-sum-of-an-array](https://github.com/PriyaSharma-code/LeetCode/tree/master/2221-find-triangular-sum-of-an-array) |
 | [2307-replace-non-coprime-numbers-in-array](https://github.com/PriyaSharma-code/LeetCode/tree/master/2307-replace-non-coprime-numbers-in-array) |
 | [3172-divisible-and-non-divisible-sums-difference](https://github.com/PriyaSharma-code/LeetCode/tree/master/3172-divisible-and-non-divisible-sums-difference) |
 | [3336-water-bottles-ii](https://github.com/PriyaSharma-code/LeetCode/tree/master/3336-water-bottles-ii) |
@@ -121,6 +123,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Combinatorics
 |  |
 | ------- |
+| [2221-find-triangular-sum-of-an-array](https://github.com/PriyaSharma-code/LeetCode/tree/master/2221-find-triangular-sum-of-an-array) |
 | [3637-count-number-of-balanced-permutations](https://github.com/PriyaSharma-code/LeetCode/tree/master/3637-count-number-of-balanced-permutations) |
 | [3813-smallest-palindromic-rearrangement-ii](https://github.com/PriyaSharma-code/LeetCode/tree/master/3813-smallest-palindromic-rearrangement-ii) |
 ## Counting
@@ -423,5 +426,6 @@ A collection of LeetCode questions to ace the coding interview!
 ## Simulation
 |  |
 | ------- |
+| [2221-find-triangular-sum-of-an-array](https://github.com/PriyaSharma-code/LeetCode/tree/master/2221-find-triangular-sum-of-an-array) |
 | [3336-water-bottles-ii](https://github.com/PriyaSharma-code/LeetCode/tree/master/3336-water-bottles-ii) |
 <!---LeetCode Topics End-->
