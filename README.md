@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0073-set-matrix-zeroes](https://github.com/PriyaSharma-code/LeetCode/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/PriyaSharma-code/LeetCode/tree/master/0074-search-a-2d-matrix) |
 | [0118-pascals-triangle](https://github.com/PriyaSharma-code/LeetCode/tree/master/0118-pascals-triangle) |
+| [0119-pascals-triangle-ii](https://github.com/PriyaSharma-code/LeetCode/tree/master/0119-pascals-triangle-ii) |
 | [0198-house-robber](https://github.com/PriyaSharma-code/LeetCode/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/PriyaSharma-code/LeetCode/tree/master/0200-number-of-islands) |
 | [0215-kth-largest-element-in-an-array](https://github.com/PriyaSharma-code/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
@@ -330,6 +331,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0118-pascals-triangle](https://github.com/PriyaSharma-code/LeetCode/tree/master/0118-pascals-triangle) |
+| [0119-pascals-triangle-ii](https://github.com/PriyaSharma-code/LeetCode/tree/master/0119-pascals-triangle-ii) |
 | [0198-house-robber](https://github.com/PriyaSharma-code/LeetCode/tree/master/0198-house-robber) |
 | [0322-coin-change](https://github.com/PriyaSharma-code/LeetCode/tree/master/0322-coin-change) |
 | [0518-coin-change-ii](https://github.com/PriyaSharma-code/LeetCode/tree/master/0518-coin-change-ii) |
