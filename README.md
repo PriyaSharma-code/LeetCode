@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0011-container-with-most-water](https://github.com/PriyaSharma-code/LeetCode/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/PriyaSharma-code/LeetCode/tree/master/0015-3sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/PriyaSharma-code/LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0046-permutations](https://github.com/PriyaSharma-code/LeetCode/tree/master/0046-permutations) |
 | [0056-merge-intervals](https://github.com/PriyaSharma-code/LeetCode/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/PriyaSharma-code/LeetCode/tree/master/0057-insert-interval) |
 | [0073-set-matrix-zeroes](https://github.com/PriyaSharma-code/LeetCode/tree/master/0073-set-matrix-zeroes) |
@@ -300,6 +301,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Backtracking
 |  |
 | ------- |
+| [0046-permutations](https://github.com/PriyaSharma-code/LeetCode/tree/master/0046-permutations) |
 | [0113-path-sum-ii](https://github.com/PriyaSharma-code/LeetCode/tree/master/0113-path-sum-ii) |
 ## Heap (Priority Queue)
 |  |
