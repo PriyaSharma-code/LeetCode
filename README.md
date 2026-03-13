@@ -116,6 +116,7 @@ A collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0002-add-two-numbers](https://github.com/PriyaSharma-code/LeetCode/tree/master/0002-add-two-numbers) |
 | [0048-rotate-image](https://github.com/PriyaSharma-code/LeetCode/tree/master/0048-rotate-image) |
+| [0050-powx-n](https://github.com/PriyaSharma-code/LeetCode/tree/master/0050-powx-n) |
 | [0202-happy-number](https://github.com/PriyaSharma-code/LeetCode/tree/master/0202-happy-number) |
 | [0231-power-of-two](https://github.com/PriyaSharma-code/LeetCode/tree/master/0231-power-of-two) |
 | [0900-reordered-power-of-2](https://github.com/PriyaSharma-code/LeetCode/tree/master/0900-reordered-power-of-2) |
@@ -244,6 +245,7 @@ A collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0002-add-two-numbers](https://github.com/PriyaSharma-code/LeetCode/tree/master/0002-add-two-numbers) |
 | [0021-merge-two-sorted-lists](https://github.com/PriyaSharma-code/LeetCode/tree/master/0021-merge-two-sorted-lists) |
+| [0050-powx-n](https://github.com/PriyaSharma-code/LeetCode/tree/master/0050-powx-n) |
 | [0231-power-of-two](https://github.com/PriyaSharma-code/LeetCode/tree/master/0231-power-of-two) |
 | [0234-palindrome-linked-list](https://github.com/PriyaSharma-code/LeetCode/tree/master/0234-palindrome-linked-list) |
 ## Tree
