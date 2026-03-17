@@ -1,32 +1,36 @@
 class Solution {
 public:
-    bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
-        vector<vector<int>> graph(numCourses);
-        vector<int> indegree(numCourses,0);
-
-        for(auto &e: prerequisites){
-            graph[e[1]].push_back(e[0]);
-            indegree[e[0]]++;
-    }
-    queue<int> q;
-    for(int i = 0; i<numCourses; i++){
-        if(indegree[i]==0){
-            q.push(i);
-        }
-    }
-    int count = 0;
-    while(!q.empty()){
-        int node = q.front();
-        q.pop();
-        count++;
-        for(int next : graph[node]){
-            indegree[next]--;
-            if(indegree[next]==0){
-                q.push(next);
+    bool dfs(int node, const vector<vector<int>>&adj, vector<bool>& vis,vector<bool>&path){
+        vis[node] = path[node] = true;
+        for(int next: adj[node]){
+            if(!vis[next]){
+                if(dfs(next,adj,vis,path)){
+                    return true;
+                }
+            }
+            else if(path[next]){
+                return true;
             }
         }
+        path[node] = false;
+        return false;
     }
-       
-        return count ==numCourses;
+    bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
+        vector<vector<int>> adj(numCourses);
+        for(const auto&e: prerequisites){
+            adj[e[1]].push_back(e[0]);
+        }
+
+        vector<bool> vis(numCourses,false),path(numCourses,false);
+
+        for(int i =0;i <numCourses; i++){
+            if(!vis[i]){
+                if(dfs(i, adj, vis, path)){
+                    return false;
+                }
+            }
+        }
+        return true;
+
     }
 };
