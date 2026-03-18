@@ -288,6 +288,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0407-trapping-rain-water-ii](https://github.com/PriyaSharma-code/LeetCode/tree/master/0407-trapping-rain-water-ii) |
 | [0417-pacific-atlantic-water-flow](https://github.com/PriyaSharma-code/LeetCode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0695-max-area-of-island](https://github.com/PriyaSharma-code/LeetCode/tree/master/0695-max-area-of-island) |
+| [0785-is-graph-bipartite](https://github.com/PriyaSharma-code/LeetCode/tree/master/0785-is-graph-bipartite) |
 | [1036-rotting-oranges](https://github.com/PriyaSharma-code/LeetCode/tree/master/1036-rotting-oranges) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/PriyaSharma-code/LeetCode/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 ## Binary Tree
@@ -321,6 +322,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0417-pacific-atlantic-water-flow](https://github.com/PriyaSharma-code/LeetCode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0437-path-sum-iii](https://github.com/PriyaSharma-code/LeetCode/tree/master/0437-path-sum-iii) |
 | [0695-max-area-of-island](https://github.com/PriyaSharma-code/LeetCode/tree/master/0695-max-area-of-island) |
+| [0785-is-graph-bipartite](https://github.com/PriyaSharma-code/LeetCode/tree/master/0785-is-graph-bipartite) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/PriyaSharma-code/LeetCode/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/PriyaSharma-code/LeetCode/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 ## Backtracking
@@ -466,8 +468,10 @@ A collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0133-clone-graph](https://github.com/PriyaSharma-code/LeetCode/tree/master/0133-clone-graph) |
 | [0207-course-schedule](https://github.com/PriyaSharma-code/LeetCode/tree/master/0207-course-schedule) |
+| [0785-is-graph-bipartite](https://github.com/PriyaSharma-code/LeetCode/tree/master/0785-is-graph-bipartite) |
 ## Union-Find
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/PriyaSharma-code/LeetCode/tree/master/0200-number-of-islands) |
+| [0785-is-graph-bipartite](https://github.com/PriyaSharma-code/LeetCode/tree/master/0785-is-graph-bipartite) |
 <!---LeetCode Topics End-->
