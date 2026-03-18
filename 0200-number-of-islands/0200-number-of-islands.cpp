@@ -18,7 +18,7 @@ public:
             for(int i = 0; i < 4; i++){
                 int nrow = row + delrow[i];
                 int ncol = col + delcol[i];
-                    if(nrow>=0 && nrow<m && ncol >=0 && ncol<n && grid[nrow][ncol]=='1' && !vis[nrow][ncol]){
+                    if(nrow>=0 && nrow<m && ncol >=0 && ncol<n && grid[nrow][ncol]=='1' && vis[nrow][ncol]==0){
                         vis[nrow][ncol] =1;
                         q.push({nrow,ncol});
                     }
@@ -32,7 +32,7 @@ public:
         int count=0;
         for(int i =0; i<m; i++){
             for(int j = 0 ; j<n; j++){
-                if(!vis[i][j] && grid[i][j] == '1'){
+                if(vis[i][j]==0 && grid[i][j] == '1'){
                     count++;
                     bfs(i,j,grid,vis);
                 }
