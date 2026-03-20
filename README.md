@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0118-pascals-triangle](https://github.com/PriyaSharma-code/LeetCode/tree/master/0118-pascals-triangle) |
 | [0119-pascals-triangle-ii](https://github.com/PriyaSharma-code/LeetCode/tree/master/0119-pascals-triangle-ii) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/PriyaSharma-code/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0169-majority-element](https://github.com/PriyaSharma-code/LeetCode/tree/master/0169-majority-element) |
 | [0198-house-robber](https://github.com/PriyaSharma-code/LeetCode/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/PriyaSharma-code/LeetCode/tree/master/0200-number-of-islands) |
 | [0215-kth-largest-element-in-an-array](https://github.com/PriyaSharma-code/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
@@ -72,6 +73,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0133-clone-graph](https://github.com/PriyaSharma-code/LeetCode/tree/master/0133-clone-graph) |
 | [0141-linked-list-cycle](https://github.com/PriyaSharma-code/LeetCode/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/PriyaSharma-code/LeetCode/tree/master/0142-linked-list-cycle-ii) |
+| [0169-majority-element](https://github.com/PriyaSharma-code/LeetCode/tree/master/0169-majority-element) |
 | [0202-happy-number](https://github.com/PriyaSharma-code/LeetCode/tree/master/0202-happy-number) |
 | [0268-missing-number](https://github.com/PriyaSharma-code/LeetCode/tree/master/0268-missing-number) |
 | [0424-longest-repeating-character-replacement](https://github.com/PriyaSharma-code/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
@@ -143,6 +145,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Counting
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/PriyaSharma-code/LeetCode/tree/master/0169-majority-element) |
 | [0900-reordered-power-of-2](https://github.com/PriyaSharma-code/LeetCode/tree/master/0900-reordered-power-of-2) |
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/PriyaSharma-code/LeetCode/tree/master/1986-largest-color-value-in-a-directed-graph) |
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/PriyaSharma-code/LeetCode/tree/master/3437-maximum-total-damage-with-spell-casting) |
@@ -169,6 +172,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Divide and Conquer
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/PriyaSharma-code/LeetCode/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/PriyaSharma-code/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
 | [1014-k-closest-points-to-origin](https://github.com/PriyaSharma-code/LeetCode/tree/master/1014-k-closest-points-to-origin) |
 | [2280-count-good-triplets-in-an-array](https://github.com/PriyaSharma-code/LeetCode/tree/master/2280-count-good-triplets-in-an-array) |
@@ -214,6 +218,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0056-merge-intervals](https://github.com/PriyaSharma-code/LeetCode/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/PriyaSharma-code/LeetCode/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/PriyaSharma-code/LeetCode/tree/master/0088-merge-sorted-array) |
+| [0169-majority-element](https://github.com/PriyaSharma-code/LeetCode/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/PriyaSharma-code/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0268-missing-number](https://github.com/PriyaSharma-code/LeetCode/tree/master/0268-missing-number) |
 | [0900-reordered-power-of-2](https://github.com/PriyaSharma-code/LeetCode/tree/master/0900-reordered-power-of-2) |
