@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0322-coin-change](https://github.com/PriyaSharma-code/LeetCode/tree/master/0322-coin-change) |
 | [0407-trapping-rain-water-ii](https://github.com/PriyaSharma-code/LeetCode/tree/master/0407-trapping-rain-water-ii) |
 | [0417-pacific-atlantic-water-flow](https://github.com/PriyaSharma-code/LeetCode/tree/master/0417-pacific-atlantic-water-flow) |
+| [0448-find-all-numbers-disappeared-in-an-array](https://github.com/PriyaSharma-code/LeetCode/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0518-coin-change-ii](https://github.com/PriyaSharma-code/LeetCode/tree/master/0518-coin-change-ii) |
 | [0695-max-area-of-island](https://github.com/PriyaSharma-code/LeetCode/tree/master/0695-max-area-of-island) |
 | [0934-bitwise-ors-of-subarrays](https://github.com/PriyaSharma-code/LeetCode/tree/master/0934-bitwise-ors-of-subarrays) |
@@ -79,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0229-majority-element-ii](https://github.com/PriyaSharma-code/LeetCode/tree/master/0229-majority-element-ii) |
 | [0268-missing-number](https://github.com/PriyaSharma-code/LeetCode/tree/master/0268-missing-number) |
 | [0424-longest-repeating-character-replacement](https://github.com/PriyaSharma-code/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
+| [0448-find-all-numbers-disappeared-in-an-array](https://github.com/PriyaSharma-code/LeetCode/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0900-reordered-power-of-2](https://github.com/PriyaSharma-code/LeetCode/tree/master/0900-reordered-power-of-2) |
 | [0940-fruit-into-baskets](https://github.com/PriyaSharma-code/LeetCode/tree/master/0940-fruit-into-baskets) |
 | [1264-maximum-number-of-words-you-can-type](https://github.com/PriyaSharma-code/LeetCode/tree/master/1264-maximum-number-of-words-you-can-type) |
