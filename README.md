@@ -47,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1293-three-consecutive-odds](https://github.com/PriyaSharma-code/LeetCode/tree/master/1293-three-consecutive-odds) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/PriyaSharma-code/LeetCode/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/PriyaSharma-code/LeetCode/tree/master/1421-find-numbers-with-even-number-of-digits) |
+| [1539-kth-missing-positive-number](https://github.com/PriyaSharma-code/LeetCode/tree/master/1539-kth-missing-positive-number) |
 | [1813-maximum-erasure-value](https://github.com/PriyaSharma-code/LeetCode/tree/master/1813-maximum-erasure-value) |
 | [1834-minimum-number-of-people-to-teach](https://github.com/PriyaSharma-code/LeetCode/tree/master/1834-minimum-number-of-people-to-teach) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/PriyaSharma-code/LeetCode/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
@@ -163,6 +164,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0268-missing-number](https://github.com/PriyaSharma-code/LeetCode/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/PriyaSharma-code/LeetCode/tree/master/0287-find-the-duplicate-number) |
 | [1046-max-consecutive-ones-iii](https://github.com/PriyaSharma-code/LeetCode/tree/master/1046-max-consecutive-ones-iii) |
+| [1539-kth-missing-positive-number](https://github.com/PriyaSharma-code/LeetCode/tree/master/1539-kth-missing-positive-number) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/PriyaSharma-code/LeetCode/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2280-count-good-triplets-in-an-array](https://github.com/PriyaSharma-code/LeetCode/tree/master/2280-count-good-triplets-in-an-array) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/PriyaSharma-code/LeetCode/tree/master/2394-count-subarrays-with-score-less-than-k) |
