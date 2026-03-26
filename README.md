@@ -215,6 +215,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0234-palindrome-linked-list](https://github.com/PriyaSharma-code/LeetCode/tree/master/0234-palindrome-linked-list) |
 | [0287-find-the-duplicate-number](https://github.com/PriyaSharma-code/LeetCode/tree/master/0287-find-the-duplicate-number) |
 | [0868-push-dominoes](https://github.com/PriyaSharma-code/LeetCode/tree/master/0868-push-dominoes) |
+| [0876-middle-of-the-linked-list](https://github.com/PriyaSharma-code/LeetCode/tree/master/0876-middle-of-the-linked-list) |
 | [1019-squares-of-a-sorted-array](https://github.com/PriyaSharma-code/LeetCode/tree/master/1019-squares-of-a-sorted-array) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/PriyaSharma-code/LeetCode/tree/master/2497-maximum-matching-of-players-with-trainers) |
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/PriyaSharma-code/LeetCode/tree/master/3437-maximum-total-damage-with-spell-casting) |
@@ -255,6 +256,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0142-linked-list-cycle-ii](https://github.com/PriyaSharma-code/LeetCode/tree/master/0142-linked-list-cycle-ii) |
 | [0206-reverse-linked-list](https://github.com/PriyaSharma-code/LeetCode/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/PriyaSharma-code/LeetCode/tree/master/0234-palindrome-linked-list) |
+| [0876-middle-of-the-linked-list](https://github.com/PriyaSharma-code/LeetCode/tree/master/0876-middle-of-the-linked-list) |
 ## Stack
 |  |
 | ------- |
