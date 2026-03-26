@@ -14,16 +14,16 @@ public:
         if(!head || !head->next){
             return head;
         }
-        ListNode* prev = nullptr;
-        ListNode* next = nullptr;
+        ListNode* node = nullptr;
         ListNode* cur = head;
 
         while(cur != nullptr){
+            ListNode* next = nullptr;
             next = cur->next;
-            cur->next = prev;
-            prev = cur;
+            cur->next = node;
+            node = cur;
             cur = next;
         }
-        return prev;
+        return node;
     }
 };
