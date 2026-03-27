@@ -9,16 +9,17 @@
 class Solution {
 public:
     ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
-        while (headB != NULL) {
-        ListNode* temp = headA;
-        while (temp != NULL) {
-            // If both nodes are the same (intersection point)
-            if (temp == headB) return headB;
-            temp = temp->next;
+        unordered_set<ListNode*> set;
+        while(headA!=nullptr){
+            set.insert(headA);
+            headA = headA->next;
         }
-        headB = headB->next;
-    }
-    // Intersection is not present between the lists, return NULL
-    return NULL;
+        while(headB!=nullptr){
+            if(set.find(headB)!=set.end()){
+                return headB;
+            }
+            headB = headB->next;
+        }
+        return nullptr;
     }
 };
