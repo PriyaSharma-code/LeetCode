@@ -31,8 +31,6 @@ public:
             temp->next = new ListNode(sum);
             temp = temp->next;
         }
-        ListNode* head = dummy->next;
-        delete dummy;
-        return head;
+        return dummy->next;
     }
 };
