@@ -8,18 +8,17 @@
  */
 class Solution {
 public:
-    ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
-        unordered_set<ListNode*> set;
-        while(headA!=nullptr){
-            set.insert(headA);
-            headA = headA->next;
+    ListNode* getIntersectionNode(ListNode* headA, ListNode* headB) {
+        ListNode* d1 = headA;
+        ListNode* d2 = headB;
+
+        // Traverse both lists, when one reaches the end, redirect it to the
+        // head of the other list
+        while (d1 != d2) {
+            d1 = d1 == NULL ? headB : d1->next;
+            d2 = d2 == NULL ? headA : d2->next;
         }
-        while(headB!=nullptr){
-            if(set.find(headB)!=set.end()){
-                return headB;
-            }
-            headB = headB->next;
-        }
-        return nullptr;
+
+        return d1; // If they meet, return the intersection node, otherwise NULL
     }
 };
