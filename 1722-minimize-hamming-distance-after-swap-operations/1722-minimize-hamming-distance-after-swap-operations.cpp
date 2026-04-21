@@ -1,55 +1,42 @@
 class Solution {
-private:
-    vector<int> fa;
-    vector<int> rank;
-    // path compression
-    int find(int x) {
-        if (fa[x] != x) {
-            fa[x] = find(fa[x]);
-        }
-        return fa[x];
-    }
-
-    void Union(int x, int y) {
-        x = find(x);
-        y = find(y);
-        if (x == y) return;
-        // merge by rank
-        if (rank[x] < rank[y]) {
-            swap(x, y);
-        }
-        fa[y] = x;
-        if (rank[x] == rank[y]) {
-            rank[x]++;
-        }
-    }
-
 public:
-    int minimumHammingDistance(vector<int>& source, vector<int>& target,
-                               vector<vector<int>>& allowedSwaps) {
+    vector<int> parent;
+
+    int find(int x) {
+        if (parent[x] != x) parent[x] = find(parent[x]);
+        return parent[x];
+    }
+
+    void unite(int a, int b) {
+        parent[find(a)] = find(b);
+    }
+
+    int minimumHammingDistance(vector<int>& source, vector<int>& target, vector<vector<int>>& allowedSwaps) {
         int n = source.size();
-        fa.resize(n);
-        rank.resize(n, 0);
-        for (int i = 0; i < n; i++) {
-            fa[i] = i;
+        parent.resize(n);
+        iota(parent.begin(), parent.end(), 0);
+
+        for (auto& swap : allowedSwaps) {
+            unite(swap[0], swap[1]);
         }
-        for (auto& pair : allowedSwaps) {
-            Union(pair[0], pair[1]);
-        }
-        unordered_map<int, unordered_map<int, int>> sets;
+
+        // Group source values by their component root
+        unordered_map<int, unordered_map<int, int>> groups;
         for (int i = 0; i < n; i++) {
-            int f = find(i);
-            sets[f][source[i]]++;
+            groups[find(i)][source[i]]++;
         }
-        int ans = 0;
+
+        int hammingDist = 0;
         for (int i = 0; i < n; i++) {
-            int f = find(i);
-            if (sets[f][target[i]] > 0) {
-                sets[f][target[i]]--;
+            int root = find(i);
+            auto& freq = groups[root];
+            if (freq.count(target[i]) && freq[target[i]] > 0) {
+                freq[target[i]]--;  // matched, consume this source value
             } else {
-                ans++;
+                hammingDist++;      // no match found in this component
             }
         }
-        return ans;
+
+        return hammingDist;
     }
 };
