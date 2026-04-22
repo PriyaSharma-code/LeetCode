@@ -7,8 +7,8 @@ public:
         if (dictionary.size() == 0) {
             return ans;
         }
-        for (string c : queries) {
-            for (string s : dictionary) {
+        for (auto& c : queries) {
+            for (auto& s : dictionary) {
                 int count = 0;
                 for (int i = 0; i < n; i++) {
                     if (c[i] != s[i]) {
