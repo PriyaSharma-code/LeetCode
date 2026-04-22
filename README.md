@@ -57,6 +57,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2307-replace-non-coprime-numbers-in-array](https://github.com/PriyaSharma-code/LeetCode/tree/master/2307-replace-non-coprime-numbers-in-array) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/PriyaSharma-code/LeetCode/tree/master/2394-count-subarrays-with-score-less-than-k) |
 | [2429-design-a-food-rating-system](https://github.com/PriyaSharma-code/LeetCode/tree/master/2429-design-a-food-rating-system) |
+| [2452-words-within-two-edits-of-dictionary](https://github.com/PriyaSharma-code/LeetCode/tree/master/2452-words-within-two-edits-of-dictionary) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/PriyaSharma-code/LeetCode/tree/master/2497-maximum-matching-of-players-with-trainers) |
 | [2527-count-subarrays-with-fixed-bounds](https://github.com/PriyaSharma-code/LeetCode/tree/master/2527-count-subarrays-with-fixed-bounds) |
 | [2529-range-product-queries-of-powers](https://github.com/PriyaSharma-code/LeetCode/tree/master/2529-range-product-queries-of-powers) |
@@ -119,6 +120,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1264-maximum-number-of-words-you-can-type](https://github.com/PriyaSharma-code/LeetCode/tree/master/1264-maximum-number-of-words-you-can-type) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/PriyaSharma-code/LeetCode/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [2429-design-a-food-rating-system](https://github.com/PriyaSharma-code/LeetCode/tree/master/2429-design-a-food-rating-system) |
+| [2452-words-within-two-edits-of-dictionary](https://github.com/PriyaSharma-code/LeetCode/tree/master/2452-words-within-two-edits-of-dictionary) |
 | [3396-valid-word](https://github.com/PriyaSharma-code/LeetCode/tree/master/3396-valid-word) |
 | [3462-vowels-game-in-a-string](https://github.com/PriyaSharma-code/LeetCode/tree/master/3462-vowels-game-in-a-string) |
 | [3637-count-number-of-balanced-permutations](https://github.com/PriyaSharma-code/LeetCode/tree/master/3637-count-number-of-balanced-permutations) |
@@ -460,6 +462,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/PriyaSharma-code/LeetCode/tree/master/1350-remove-sub-folders-from-the-filesystem) |
+| [2452-words-within-two-edits-of-dictionary](https://github.com/PriyaSharma-code/LeetCode/tree/master/2452-words-within-two-edits-of-dictionary) |
 ## Bit Manipulation
 |  |
 | ------- |
