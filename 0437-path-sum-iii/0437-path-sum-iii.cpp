@@ -20,8 +20,8 @@ public:
             if (sum == targetSum) count++;
         }
 
-        helperPathSum(root->left, targetSum, path);
-        helperPathSum(root->right, targetSum, path);
+        if(root->left) helperPathSum(root->left, targetSum, path);
+        if(root->right) helperPathSum(root->right, targetSum, path);
 
         // Backtrack
         path.pop_back();
