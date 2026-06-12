@@ -220,6 +220,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0202-happy-number](https://github.com/PriyaSharma-code/LeetCode/tree/master/0202-happy-number) |
 | [0234-palindrome-linked-list](https://github.com/PriyaSharma-code/LeetCode/tree/master/0234-palindrome-linked-list) |
 | [0287-find-the-duplicate-number](https://github.com/PriyaSharma-code/LeetCode/tree/master/0287-find-the-duplicate-number) |
+| [0295-find-median-from-data-stream](https://github.com/PriyaSharma-code/LeetCode/tree/master/0295-find-median-from-data-stream) |
 | [0868-push-dominoes](https://github.com/PriyaSharma-code/LeetCode/tree/master/0868-push-dominoes) |
 | [0876-middle-of-the-linked-list](https://github.com/PriyaSharma-code/LeetCode/tree/master/0876-middle-of-the-linked-list) |
 | [1019-squares-of-a-sorted-array](https://github.com/PriyaSharma-code/LeetCode/tree/master/1019-squares-of-a-sorted-array) |
@@ -236,6 +237,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0215-kth-largest-element-in-an-array](https://github.com/PriyaSharma-code/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0229-majority-element-ii](https://github.com/PriyaSharma-code/LeetCode/tree/master/0229-majority-element-ii) |
 | [0268-missing-number](https://github.com/PriyaSharma-code/LeetCode/tree/master/0268-missing-number) |
+| [0295-find-median-from-data-stream](https://github.com/PriyaSharma-code/LeetCode/tree/master/0295-find-median-from-data-stream) |
 | [0900-reordered-power-of-2](https://github.com/PriyaSharma-code/LeetCode/tree/master/0900-reordered-power-of-2) |
 | [1014-k-closest-points-to-origin](https://github.com/PriyaSharma-code/LeetCode/tree/master/1014-k-closest-points-to-origin) |
 | [1019-squares-of-a-sorted-array](https://github.com/PriyaSharma-code/LeetCode/tree/master/1019-squares-of-a-sorted-array) |
@@ -380,6 +382,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/PriyaSharma-code/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
+| [0295-find-median-from-data-stream](https://github.com/PriyaSharma-code/LeetCode/tree/master/0295-find-median-from-data-stream) |
 | [0407-trapping-rain-water-ii](https://github.com/PriyaSharma-code/LeetCode/tree/master/0407-trapping-rain-water-ii) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/PriyaSharma-code/LeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1014-k-closest-points-to-origin](https://github.com/PriyaSharma-code/LeetCode/tree/master/1014-k-closest-points-to-origin) |
@@ -458,6 +461,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Design
 |  |
 | ------- |
+| [0295-find-median-from-data-stream](https://github.com/PriyaSharma-code/LeetCode/tree/master/0295-find-median-from-data-stream) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/PriyaSharma-code/LeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [2429-design-a-food-rating-system](https://github.com/PriyaSharma-code/LeetCode/tree/master/2429-design-a-food-rating-system) |
 ## Binary Search Tree
@@ -468,6 +472,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Data Stream
 |  |
 | ------- |
+| [0295-find-median-from-data-stream](https://github.com/PriyaSharma-code/LeetCode/tree/master/0295-find-median-from-data-stream) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/PriyaSharma-code/LeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
 ## Union Find
 |  |
