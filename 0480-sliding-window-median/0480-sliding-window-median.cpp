@@ -1,147 +1,104 @@
-#include <vector>
-#include <queue>
-#include <unordered_map>
-
-using namespace std;
-
-class MedianFinder
-{
-    // Max-heap stores the smaller half of the numbers (left side)
-    priority_queue<int> maxHeap;
-    
-    // Min-heap stores the larger half of the numbers (right side)
-    priority_queue<int, vector<int>, greater<int>> minHeap;
-    
-    // Tracks numbers that should be deleted but are still sitting inside the heaps
-    unordered_map<int, int> pendingDeletions;
-    
-    // Number of valid, active elements inside each half
-    int leftHeapActiveCount = 0;
-    int rightHeapActiveCount = 0;
-    int windowSize;
-
-    // Cleans up invalidated elements from the top of the max-heap
-    void purgeInvalidElementsFromLeft(priority_queue<int> &maxHeap)
-    {
-        while (!maxHeap.empty() && pendingDeletions[maxHeap.top()])
-        {
-            pendingDeletions[maxHeap.top()]--;
-            maxHeap.pop();
-        }
-    }
-
-    // Cleans up invalidated elements from the top of the min-heap
-    void purgeInvalidElementsFromRight(priority_queue<int, vector<int>, greater<int>> &minHeap)
-    {
-        while (!minHeap.empty() && pendingDeletions[minHeap.top()])
-        {
-            pendingDeletions[minHeap.top()]--;
-            minHeap.pop();
-        }
-    }
-
-    // Rebalances the size of the two halves to maintain median properties
-    void balanceHeaps(int imbalance)
-    {
-        // Left side has too many elements
-        if (imbalance > 1)
-        {
-            minHeap.push(maxHeap.top());
-            maxHeap.pop();
-            leftHeapActiveCount--;
-            rightHeapActiveCount++;
-        }
-        // Right side has more elements than the left side
-        else if (imbalance < 0)
-        {
-            maxHeap.push(minHeap.top());
-            minHeap.pop();
-            leftHeapActiveCount++;
-            rightHeapActiveCount--;
-        }
-        
-        // Ensure the tops of both heaps represent valid active elements
-        purgeInvalidElementsFromLeft(maxHeap);
-        purgeInvalidElementsFromRight(minHeap);
-    }
-
-public:
-    MedianFinder(int k)
-    {
-        while (!maxHeap.empty()) maxHeap.pop();
-        while (!minHeap.empty()) minHeap.pop();
-        pendingDeletions.clear();
-        leftHeapActiveCount = rightHeapActiveCount = 0;
-        this->windowSize = k;
-    }
-
-    void add(int num)
-    {
-        if (maxHeap.empty() || num <= maxHeap.top()) 
-        {
-            maxHeap.push(num);
-            leftHeapActiveCount++;
-        }
-        else 
-        {
-            minHeap.push(num);
-            rightHeapActiveCount++;
-        }
-        balanceHeaps(leftHeapActiveCount - rightHeapActiveCount);
-    }
-
-    void remove(int num)
-    {
-        pendingDeletions[num]++;
-        
-        // Decrement our tracking count depending on which half the number belongs to
-        if (!maxHeap.empty() && num <= maxHeap.top()) 
-        {
-            leftHeapActiveCount--;
-        }
-        else 
-        {
-            rightHeapActiveCount--;
-        }
-        balanceHeaps(leftHeapActiveCount - rightHeapActiveCount);
-    }
-
-    double getMedian()
-    {
-        purgeInvalidElementsFromLeft(maxHeap);
-        purgeInvalidElementsFromRight(minHeap);
-        
-        if (windowSize % 2 == 1) 
-        {
-            return maxHeap.top();
-        }
-        else 
-        {
-            return ((double)maxHeap.top() + (double)minHeap.top()) / 2.0;
-        }
-    }
-};
-
 class Solution {
 public:
     vector<double> medianSlidingWindow(vector<int>& nums, int k) {
-        MedianFinder medianTracker(k);
-        vector<double> result;
-        
-        for (int i = 0; i < nums.size(); i++)
-        {
-            medianTracker.add(nums[i]);
-            
-            // Once the window reaches size k, start recording medians and sliding
-            if (i >= k - 1)
-            {
-                result.push_back(medianTracker.getMedian());
-                
-                // Remove the element that is falling out of the back of the window
-                int elementToRemove = nums[i - k + 1];
-                medianTracker.remove(elementToRemove);
+        int n = nums.size();
+        vector<double> ans;
+        for (int i = 0; i < k-1; i++)
+            addNumber(i, 0, nums);
+        for (int i = k-1; i < n; i++) {
+            addNumber(i, i-k+1, nums);
+            ans.push_back(calc(k, i-k+1));
+            removeNumber(i-k+1, i-k+1, nums);
+        }
+        return ans;
+    }
+
+private:
+    priority_queue<pair<int, int>> maxHeap;
+    priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> minHeap;
+    int minHeapSize = 0;
+    int maxHeapSize = 0;
+
+    void cleanMaxHeap(int l) {
+        while (!maxHeap.empty()) {
+            if (maxHeap.top().second >= l)
+                break;
+            maxHeap.pop();
+        }
+        return;
+    }
+
+    void cleanMinHeap(int l) {
+        while (!minHeap.empty()) {
+            if (minHeap.top().second >= l)
+                break;
+            minHeap.pop();
+        }
+        return;
+    }
+
+    void adjustHeaps(int l) {
+        cleanMaxHeap(l);
+        cleanMinHeap(l);
+        if (maxHeapSize == minHeapSize+1) {
+            if (!maxHeap.empty()) {
+                pair<int, int> t = maxHeap.top();
+                maxHeap.pop();
+                maxHeapSize--;
+                minHeap.push(t);
+                minHeapSize++;
             }
         }
-        return result;
+        if (maxHeapSize == minHeapSize-2) {
+            if (!minHeap.empty()) {
+                pair<int, int> t = minHeap.top();
+                minHeap.pop();
+                minHeapSize--;
+                maxHeap.push(t);
+                maxHeapSize++;
+            }
+        }
+
+        if (maxHeapSize > 0) {
+            pair<int, int> maxHeapTop = maxHeap.top();
+            pair<int, int> minHeapTop = minHeap.top();
+            if (maxHeapTop > minHeapTop) {
+                maxHeap.pop();
+                minHeap.pop();
+                maxHeap.push(minHeapTop);
+                minHeap.push(maxHeapTop);
+            }
+        }
     }
+
+    void addNumber(int ind, int l, vector<int> &nums) {
+        minHeap.push({nums[ind], ind});
+        minHeapSize++;
+        adjustHeaps(l);
+        // test("add");
+    }
+
+    void removeNumber(int ind, int l, vector<int> &nums) {
+        cleanMinHeap(l);
+        pair<int, int> t = minHeap.top();
+        pair<int, int> cur = {nums[ind], ind};
+
+        if (cur >= t) {
+            minHeapSize--;
+        } else {
+            maxHeapSize--;
+        }
+        adjustHeaps(l+1);
+        // test("remove");
+    }
+
+    double calc(int k, int l) {
+        cleanMaxHeap(l);
+        cleanMinHeap(l);
+        // test("calc");
+        if (k&1)
+            return (double) (minHeap.top().first);
+        return (double) ((long long) minHeap.top().first + (long long) maxHeap.top().first)/2.0;
+    }
+
 };
