@@ -34,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0407-trapping-rain-water-ii](https://github.com/PriyaSharma-code/LeetCode/tree/master/0407-trapping-rain-water-ii) |
 | [0417-pacific-atlantic-water-flow](https://github.com/PriyaSharma-code/LeetCode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/PriyaSharma-code/LeetCode/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
+| [0480-sliding-window-median](https://github.com/PriyaSharma-code/LeetCode/tree/master/0480-sliding-window-median) |
 | [0518-coin-change-ii](https://github.com/PriyaSharma-code/LeetCode/tree/master/0518-coin-change-ii) |
 | [0695-max-area-of-island](https://github.com/PriyaSharma-code/LeetCode/tree/master/0695-max-area-of-island) |
 | [0934-bitwise-ors-of-subarrays](https://github.com/PriyaSharma-code/LeetCode/tree/master/0934-bitwise-ors-of-subarrays) |
@@ -85,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0268-missing-number](https://github.com/PriyaSharma-code/LeetCode/tree/master/0268-missing-number) |
 | [0424-longest-repeating-character-replacement](https://github.com/PriyaSharma-code/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/PriyaSharma-code/LeetCode/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
+| [0480-sliding-window-median](https://github.com/PriyaSharma-code/LeetCode/tree/master/0480-sliding-window-median) |
 | [0900-reordered-power-of-2](https://github.com/PriyaSharma-code/LeetCode/tree/master/0900-reordered-power-of-2) |
 | [0940-fruit-into-baskets](https://github.com/PriyaSharma-code/LeetCode/tree/master/0940-fruit-into-baskets) |
 | [1264-maximum-number-of-words-you-can-type](https://github.com/PriyaSharma-code/LeetCode/tree/master/1264-maximum-number-of-words-you-can-type) |
@@ -103,6 +105,7 @@ A collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/PriyaSharma-code/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0424-longest-repeating-character-replacement](https://github.com/PriyaSharma-code/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
+| [0480-sliding-window-median](https://github.com/PriyaSharma-code/LeetCode/tree/master/0480-sliding-window-median) |
 | [0940-fruit-into-baskets](https://github.com/PriyaSharma-code/LeetCode/tree/master/0940-fruit-into-baskets) |
 | [1046-max-consecutive-ones-iii](https://github.com/PriyaSharma-code/LeetCode/tree/master/1046-max-consecutive-ones-iii) |
 | [1813-maximum-erasure-value](https://github.com/PriyaSharma-code/LeetCode/tree/master/1813-maximum-erasure-value) |
@@ -384,6 +387,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0215-kth-largest-element-in-an-array](https://github.com/PriyaSharma-code/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0295-find-median-from-data-stream](https://github.com/PriyaSharma-code/LeetCode/tree/master/0295-find-median-from-data-stream) |
 | [0407-trapping-rain-water-ii](https://github.com/PriyaSharma-code/LeetCode/tree/master/0407-trapping-rain-water-ii) |
+| [0480-sliding-window-median](https://github.com/PriyaSharma-code/LeetCode/tree/master/0480-sliding-window-median) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/PriyaSharma-code/LeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1014-k-closest-points-to-origin](https://github.com/PriyaSharma-code/LeetCode/tree/master/1014-k-closest-points-to-origin) |
 | [1127-last-stone-weight](https://github.com/PriyaSharma-code/LeetCode/tree/master/1127-last-stone-weight) |
