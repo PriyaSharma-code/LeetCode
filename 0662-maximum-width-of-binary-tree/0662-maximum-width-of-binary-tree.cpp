@@ -11,34 +11,27 @@
  */
 class Solution {
 public:
-     int widthOfBinaryTree(TreeNode* root) {
-        if (root == NULL) { return 0; }
-
-        int maxw = 0;
-        queue<pair<TreeNode*, unsigned long long>> q;
+    int widthOfBinaryTree(TreeNode* root) {
+        if(!root) return 0;
+        queue<pair<TreeNode*, long long>> q;
         q.push({root, 0});
-
-        while(!q.empty())
-        {
-            int n = q.size();
-            unsigned long long start = q.front().second; // The position of the first node in the current level
-            unsigned long long end = q.back().second;   // The position of the last node in the current level
-            maxw = max(maxw, int(end - start + 1));     // Update the maximum width
-
-            for (int i = 0; i < n; i++)
-            {
-                pair<TreeNode*, unsigned long long> node = q.front(); 
-                q.pop(); 
-
-                unsigned long long index = node.second - start; // Normalized index to prevent overflow
-                if (node.first->left != nullptr) {
-                    q.push({node.first->left, 2 * index+1});
-                }
-                if (node.first->right != nullptr) {
-                    q.push({node.first->right, 2 * index + 2});
-                }
-            }
+        int ans = 0;
+        while(!q.empty()){
+            int size = q.size();
+            int minLvl = q.front().second;
+            int firstInd, lastInd;
+            for(int i = 0; i < size; ++i){
+                long long curr_id = q.front().second - minLvl;
+                TreeNode* node = q.front().first;
+                q.pop();
+                if(i == 0) firstInd = curr_id;
+                if(i == size - 1) lastInd = curr_id;
+                if(node -> left) q.push({node -> left, 2*curr_id + 1});
+                if(node -> right) q.push({node -> right, 2*curr_id + 2});
+            } 
+            ans = max(ans, (int)lastInd - firstInd + 1);
         }
-        return maxw;
+
+        return ans;
     }
 };
