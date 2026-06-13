@@ -35,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0347-top-k-frequent-elements](https://github.com/PriyaSharma-code/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0407-trapping-rain-water-ii](https://github.com/PriyaSharma-code/LeetCode/tree/master/0407-trapping-rain-water-ii) |
 | [0417-pacific-atlantic-water-flow](https://github.com/PriyaSharma-code/LeetCode/tree/master/0417-pacific-atlantic-water-flow) |
+| [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/PriyaSharma-code/LeetCode/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/PriyaSharma-code/LeetCode/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0480-sliding-window-median](https://github.com/PriyaSharma-code/LeetCode/tree/master/0480-sliding-window-median) |
 | [0518-coin-change-ii](https://github.com/PriyaSharma-code/LeetCode/tree/master/0518-coin-change-ii) |
@@ -87,6 +88,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0229-majority-element-ii](https://github.com/PriyaSharma-code/LeetCode/tree/master/0229-majority-element-ii) |
 | [0268-missing-number](https://github.com/PriyaSharma-code/LeetCode/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/PriyaSharma-code/LeetCode/tree/master/0347-top-k-frequent-elements) |
+| [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/PriyaSharma-code/LeetCode/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [0424-longest-repeating-character-replacement](https://github.com/PriyaSharma-code/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/PriyaSharma-code/LeetCode/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0480-sliding-window-median](https://github.com/PriyaSharma-code/LeetCode/tree/master/0480-sliding-window-median) |
@@ -505,6 +507,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Trie
 |  |
 | ------- |
+| [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/PriyaSharma-code/LeetCode/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/PriyaSharma-code/LeetCode/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/PriyaSharma-code/LeetCode/tree/master/2452-words-within-two-edits-of-dictionary) |
 ## Bit Manipulation
@@ -514,6 +517,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0231-power-of-two](https://github.com/PriyaSharma-code/LeetCode/tree/master/0231-power-of-two) |
 | [0268-missing-number](https://github.com/PriyaSharma-code/LeetCode/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/PriyaSharma-code/LeetCode/tree/master/0287-find-the-duplicate-number) |
+| [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/PriyaSharma-code/LeetCode/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [0934-bitwise-ors-of-subarrays](https://github.com/PriyaSharma-code/LeetCode/tree/master/0934-bitwise-ors-of-subarrays) |
 | [2529-range-product-queries-of-powers](https://github.com/PriyaSharma-code/LeetCode/tree/master/2529-range-product-queries-of-powers) |
 ## Enumeration
