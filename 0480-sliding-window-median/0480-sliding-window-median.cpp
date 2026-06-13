@@ -1,132 +1,55 @@
 class Solution {
-public:
+    multiset<int> lo, hi; // lo = lower half, hi = upper half
 
-    priority_queue<long long> small;
-
-    priority_queue<long long,
-                   vector<long long>,
-                   greater<long long>> large;
-
-    unordered_map<long long,int> delayed;
-
-    int smallSize = 0;
-    int largeSize = 0;
-
-    void pruneSmall() {
-        while (!small.empty()) {
-            long long x = small.top();
-
-            if (delayed.count(x) && delayed[x] > 0) {
-                delayed[x]--;
-                small.pop();
-            }
-            else
-                break;
+    void addNum(int num) {
+        lo.insert(num);
+        // Push max of lo into hi to maintain ordering
+        hi.insert(*lo.rbegin());
+        lo.erase(lo.find(*lo.rbegin()));
+        // Rebalance sizes: lo should be >= hi in size
+        if (lo.size() < hi.size()) {
+            lo.insert(*hi.begin());
+            hi.erase(hi.begin());
         }
     }
 
-    void pruneLarge() {
-        while (!large.empty()) {
-            long long x = large.top();
-
-            if (delayed.count(x) && delayed[x] > 0) {
-                delayed[x]--;
-                large.pop();
-            }
-            else
-                break;
+    void removeNum(int num, int k) {
+        // Remove from whichever half it belongs to
+        if (lo.find(num) != lo.end() && 
+            (hi.empty() || num <= *hi.begin())) {
+            lo.erase(lo.find(num));
+        } else {
+            hi.erase(hi.find(num));
         }
-    }
-
-    void balance() {
-
-        if (smallSize > largeSize + 1) {
-
-            large.push(small.top());
-            small.pop();
-
-            smallSize--;
-            largeSize++;
-
-            pruneSmall();
+        // Rebalance after removal
+        if (lo.size() < hi.size()) {
+            lo.insert(*hi.begin());
+            hi.erase(hi.begin());
+        } else if (lo.size() > hi.size() + 1) {
+            hi.insert(*lo.rbegin());
+            lo.erase(lo.find(*lo.rbegin()));
         }
-
-        else if (smallSize < largeSize) {
-
-            small.push(large.top());
-            large.pop();
-
-            smallSize++;
-            largeSize--;
-
-            pruneLarge();
-        }
-    }
-
-    void addNum(long long num) {
-
-        if (small.empty() || num <= small.top()) {
-            small.push(num);
-            smallSize++;
-        }
-        else {
-            large.push(num);
-            largeSize++;
-        }
-
-        balance();
-    }
-
-    void removeNum(long long num) {
-
-        delayed[num]++;
-
-        if (num <= small.top()) {
-
-            smallSize--;
-
-            if (num == small.top())
-                pruneSmall();
-        }
-        else {
-
-            largeSize--;
-
-            if (num == large.top())
-                pruneLarge();
-        }
-
-        balance();
     }
 
     double getMedian(int k) {
-
-        if (k % 2)
-            return (double)small.top();
-
-        return ((double)small.top() +
-                (double)large.top()) / 2.0;
+        if (k % 2 == 1) return (double)*lo.rbegin();
+        return ((double)*lo.rbegin() + (double)*hi.begin()) / 2.0;
     }
 
-    vector<double> medianSlidingWindow(vector<int>& nums,
-                                       int k) {
+public:
+    vector<double> medianSlidingWindow(vector<int>& nums, int k) {
+        vector<double> result;
+        int n = nums.size();
 
-        vector<double> ans;
-
-        for (int i = 0; i < k; i++)
+        for (int i = 0; i < n; i++) {
             addNum(nums[i]);
 
-        ans.push_back(getMedian(k));
-
-        for (int i = k; i < nums.size(); i++) {
-
-            addNum(nums[i]);
-
-            removeNum(nums[i - k]);
-
-            ans.push_back(getMedian(k));
+            if ((int)(lo.size() + hi.size()) == k) {
+                result.push_back(getMedian(k));
+                // Remove the element leaving the window
+                removeNum(nums[i - k + 1], k);
+            }
         }
-
-        return ans;
+        return result;
     }
 };
