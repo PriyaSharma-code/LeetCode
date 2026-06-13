@@ -5,20 +5,20 @@ public:
         vector<int> ans;
         unordered_map<int,int> mp;
 
-        for(auto &i : nums) {
+        for(auto &i : nums){
             mp[i]++;
         }
 
         priority_queue<pair<int,int>, vector<pair<int,int>>, greater<pair<int,int>>> pq;
 
-        for(const auto &[elem,freq] : mp){
-            if(pq.size()<k) 
-                pq.push({freq,elem});
-            else if(pq.top().first<freq) {
-                pq.pop();
-                pq.push({freq,elem});
+        for(const auto&[ele,freq] : mp){
+            if(pq.size()<k){
+                pq.push({freq,ele});
             }
-            
+            else if(pq.top().first<freq){
+                pq.pop();
+                pq.push({freq,ele});
+            }
         }
 
         while(!pq.empty()){
