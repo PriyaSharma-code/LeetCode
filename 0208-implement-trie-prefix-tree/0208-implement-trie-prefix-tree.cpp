@@ -1,10 +1,10 @@
 class TrieNode{
 public:
-    TrieNode *child[26];
+    TrieNode* child[26];
     bool isEnd;
-    TrieNode() {
+    TrieNode(){
         isEnd = false;
-        for(int i=0;i<26;i++){
+        for(int i = 0; i<26;i++){
             child[i] = nullptr;
         }
     }
@@ -13,15 +13,15 @@ public:
 class Trie {
 public:
     TrieNode* root;
-    Trie(){
-        root = new TrieNode();
+    Trie() {
+        root= new TrieNode();
     }
     
     void insert(string word) {
         TrieNode* node = root;
         for(char c: word){
             int idx = c - 'a';
-            if(node->child[idx]==nullptr){
+            if(node->child[idx] == nullptr){
                 node->child[idx] = new TrieNode();
             }
             node = node->child[idx];
@@ -30,10 +30,10 @@ public:
     }
     
     bool search(string word) {
-        TrieNode* node = root;
+        TrieNode * node = root;
         for(char c: word){
             int idx = c - 'a';
-            if(node->child[idx]== nullptr){
+            if(node->child[idx]==nullptr){
                 return false;
             }
             node = node->child[idx];
