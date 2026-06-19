@@ -85,6 +85,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0160-intersection-of-two-linked-lists](https://github.com/PriyaSharma-code/LeetCode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0169-majority-element](https://github.com/PriyaSharma-code/LeetCode/tree/master/0169-majority-element) |
 | [0202-happy-number](https://github.com/PriyaSharma-code/LeetCode/tree/master/0202-happy-number) |
+| [0208-implement-trie-prefix-tree](https://github.com/PriyaSharma-code/LeetCode/tree/master/0208-implement-trie-prefix-tree) |
 | [0229-majority-element-ii](https://github.com/PriyaSharma-code/LeetCode/tree/master/0229-majority-element-ii) |
 | [0268-missing-number](https://github.com/PriyaSharma-code/LeetCode/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/PriyaSharma-code/LeetCode/tree/master/0347-top-k-frequent-elements) |
@@ -122,6 +123,7 @@ A collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/PriyaSharma-code/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0020-valid-parentheses](https://github.com/PriyaSharma-code/LeetCode/tree/master/0020-valid-parentheses) |
+| [0208-implement-trie-prefix-tree](https://github.com/PriyaSharma-code/LeetCode/tree/master/0208-implement-trie-prefix-tree) |
 | [0424-longest-repeating-character-replacement](https://github.com/PriyaSharma-code/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
 | [0868-push-dominoes](https://github.com/PriyaSharma-code/LeetCode/tree/master/0868-push-dominoes) |
 | [1250-longest-common-subsequence](https://github.com/PriyaSharma-code/LeetCode/tree/master/1250-longest-common-subsequence) |
@@ -486,6 +488,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Design
 |  |
 | ------- |
+| [0208-implement-trie-prefix-tree](https://github.com/PriyaSharma-code/LeetCode/tree/master/0208-implement-trie-prefix-tree) |
 | [0295-find-median-from-data-stream](https://github.com/PriyaSharma-code/LeetCode/tree/master/0295-find-median-from-data-stream) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/PriyaSharma-code/LeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [2429-design-a-food-rating-system](https://github.com/PriyaSharma-code/LeetCode/tree/master/2429-design-a-food-rating-system) |
@@ -507,6 +510,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Trie
 |  |
 | ------- |
+| [0208-implement-trie-prefix-tree](https://github.com/PriyaSharma-code/LeetCode/tree/master/0208-implement-trie-prefix-tree) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/PriyaSharma-code/LeetCode/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/PriyaSharma-code/LeetCode/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/PriyaSharma-code/LeetCode/tree/master/2452-words-within-two-edits-of-dictionary) |
