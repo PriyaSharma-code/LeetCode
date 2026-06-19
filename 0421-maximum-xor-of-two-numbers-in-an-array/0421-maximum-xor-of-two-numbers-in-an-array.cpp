@@ -1,31 +1,85 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+// Node structure for Trie
+class Node {
+public:
+    Node* links[2];
+
+    // Check if bit path exists
+    bool containsKey(int bit) {
+        return links[bit] != NULL;
+    }
+
+    // Get the child node for bit
+    Node* get(int bit) {
+        return links[bit];
+    }
+
+    // Create a link for the bit
+    void put(int bit, Node* node) {
+        links[bit] = node;
+    }
+};
+
 class Solution {
 public:
-    int findMaximumXOR(vector<int>& nums) {
-        sort( nums.begin(), nums.end( ) );
-        nums.erase(unique( nums.begin( ), nums.end( ) ), nums.end( ) );
-        const int size = static_cast<int>( nums.size( ) );
-        int l = 0;
-        int r = size - 1;
-        int result = nums.back( ) ^ nums.front( );
-        long long upper = 1;
-        while( upper <= nums.back( ) )
-            upper <<= 1;
-        --upper;
-        while( l + 1 < r )
-        {
-            int a = nums[l];
-            int b = nums[l + 1];
-            int c = nums[r - 1];
-            int d = nums[r];
-            result = max( result, a ^ b );
-            result = max( result, a ^ c );
-            result = max( result, b ^ d );
-            result = max( result, c ^ d );
-            if( static_cast<long long>( a ) + d < upper )
-                ++l;
-            else
-                --r;
+    Node* root;
+
+    // Initialize root node
+    Solution() {
+        root = new Node();
+    }
+
+    // Insert a number into the Trie
+    void insert(int num) {
+        Node* node = root;
+        for (int i = 31; i >= 0; i--) {
+            // Get the i-th bit
+            int bit = (num >> i) & 1;
+
+            // Create path if it doesn't exist
+            if (!node->containsKey(bit)) {
+                node->put(bit, new Node());
+            }
+
+            // Move to next node
+            node = node->get(bit);
         }
-        return result;
+    }
+
+    // Get max XOR for a given number
+    int getMaxXOR(int num) {
+        Node* node = root;
+        int maxXor = 0;
+
+        for (int i = 31; i >= 0; i--) {
+            // Get the i-th bit
+            int bit = (num >> i) & 1;
+
+            // Try to go opposite bit to maximize XOR
+            if (node->containsKey(1 - bit)) {
+                maxXor |= (1 << i);
+                node = node->get(1 - bit);
+            } else {
+                node = node->get(bit);
+            }
+        }
+
+        return maxXor;
+    }
+
+    // Find the maximum XOR among all pairs
+    int findMaximumXOR(vector<int>& nums) {
+        for (int num : nums) {
+            insert(num);
+        }
+
+        int maxResult = 0;
+        for (int num : nums) {
+            maxResult = max(maxResult, getMaxXOR(num));
+        }
+
+        return maxResult;
     }
 };
