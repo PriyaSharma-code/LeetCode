@@ -1,21 +1,19 @@
 class Solution {
 public:
     vector<vector<int>> subsets(vector<int>& nums) {
-        vector<vector<int>> res;
-        vector<int> subset;
-
-        createsub(nums, 0 , res , subset);
-        return res;
+        vector<vector<int>> result;
+        result.push_back({});
+        bfs(result,nums);
+        return result;
     }
-    void createsub(vector<int>& nums, int index, vector<vector<int>> &res, vector<int>& sub){
-        if(index == nums.size()){
-            res.push_back(sub);
-            return;
+    void bfs(vector<vector<int>> &result, vector<int>& nums){
+        for(int i=0; i <nums.size() ;i++){
+            int n = result.size();
+            for(int j = 0; j <n; j++){
+                vector<int>cur = result[j];
+                cur.push_back(nums[i]);
+                result.push_back(cur);
+            }
         }
-        sub.push_back(nums[index]);
-        createsub(nums, index+1, res, sub);
-
-        sub.pop_back();
-        createsub(nums, index + 1, res, sub);
     }
 };
