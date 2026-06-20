@@ -97,6 +97,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0900-reordered-power-of-2](https://github.com/PriyaSharma-code/LeetCode/tree/master/0900-reordered-power-of-2) |
 | [0940-fruit-into-baskets](https://github.com/PriyaSharma-code/LeetCode/tree/master/0940-fruit-into-baskets) |
 | [1264-maximum-number-of-words-you-can-type](https://github.com/PriyaSharma-code/LeetCode/tree/master/1264-maximum-number-of-words-you-can-type) |
+| [1520-maximum-number-of-non-overlapping-substrings](https://github.com/PriyaSharma-code/LeetCode/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
 | [1813-maximum-erasure-value](https://github.com/PriyaSharma-code/LeetCode/tree/master/1813-maximum-erasure-value) |
 | [1834-minimum-number-of-people-to-teach](https://github.com/PriyaSharma-code/LeetCode/tree/master/1834-minimum-number-of-people-to-teach) |
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/PriyaSharma-code/LeetCode/tree/master/1986-largest-color-value-in-a-directed-graph) |
@@ -130,6 +131,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1250-longest-common-subsequence](https://github.com/PriyaSharma-code/LeetCode/tree/master/1250-longest-common-subsequence) |
 | [1264-maximum-number-of-words-you-can-type](https://github.com/PriyaSharma-code/LeetCode/tree/master/1264-maximum-number-of-words-you-can-type) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/PriyaSharma-code/LeetCode/tree/master/1350-remove-sub-folders-from-the-filesystem) |
+| [1520-maximum-number-of-non-overlapping-substrings](https://github.com/PriyaSharma-code/LeetCode/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
 | [2429-design-a-food-rating-system](https://github.com/PriyaSharma-code/LeetCode/tree/master/2429-design-a-food-rating-system) |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/PriyaSharma-code/LeetCode/tree/master/2452-words-within-two-edits-of-dictionary) |
 | [3396-valid-word](https://github.com/PriyaSharma-code/LeetCode/tree/master/3396-valid-word) |
@@ -255,6 +257,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0900-reordered-power-of-2](https://github.com/PriyaSharma-code/LeetCode/tree/master/0900-reordered-power-of-2) |
 | [1014-k-closest-points-to-origin](https://github.com/PriyaSharma-code/LeetCode/tree/master/1014-k-closest-points-to-origin) |
 | [1019-squares-of-a-sorted-array](https://github.com/PriyaSharma-code/LeetCode/tree/master/1019-squares-of-a-sorted-array) |
+| [1520-maximum-number-of-non-overlapping-substrings](https://github.com/PriyaSharma-code/LeetCode/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/PriyaSharma-code/LeetCode/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/PriyaSharma-code/LeetCode/tree/master/2497-maximum-matching-of-players-with-trainers) |
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/PriyaSharma-code/LeetCode/tree/master/3437-maximum-total-damage-with-spell-casting) |
@@ -430,6 +433,7 @@ A collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0011-container-with-most-water](https://github.com/PriyaSharma-code/LeetCode/tree/master/0011-container-with-most-water) |
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/PriyaSharma-code/LeetCode/tree/master/1049-minimum-domino-rotations-for-equal-row) |
+| [1520-maximum-number-of-non-overlapping-substrings](https://github.com/PriyaSharma-code/LeetCode/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
 | [1834-minimum-number-of-people-to-teach](https://github.com/PriyaSharma-code/LeetCode/tree/master/1834-minimum-number-of-people-to-teach) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/PriyaSharma-code/LeetCode/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/PriyaSharma-code/LeetCode/tree/master/2497-maximum-matching-of-players-with-trainers) |
